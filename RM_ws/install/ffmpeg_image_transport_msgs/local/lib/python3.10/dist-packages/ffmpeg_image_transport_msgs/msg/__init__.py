@@ -1,0 +1,1 @@
+/RM_ws/build/ffmpeg_image_transport_msgs/rosidl_generator_py/ffmpeg_image_transport_msgs/msg/__init__.py

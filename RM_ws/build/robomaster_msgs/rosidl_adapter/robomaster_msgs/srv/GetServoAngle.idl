@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robomaster_msgs/srv/GetServoAngle.srv
+// generated code does not contain a copyright notice
+
+
+module robomaster_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Command to read the servo angle.")
+    struct GetServoAngle_Request {
+      @verbatim (language="comment", text=
+        "ID of the servo (between 0 and 2)")
+      uint8 index;
+    };
+    struct GetServoAngle_Response {
+      @verbatim (language="comment", text=
+        "absolute angle in rad")
+      float angle;
+    };
+  };
+};

@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robomaster_msgs/msg/PWM.msg
+// generated code does not contain a copyright notice
+
+
+module robomaster_msgs {
+  module msg {
+    typedef float float__6[6];
+    @verbatim (language="comment", text=
+      "Commands to control the 6 PWM interfaces")
+    struct PWM {
+      @verbatim (language="comment", text=
+        "Fraction of duty cycle in [0, 1]. Negative value signal to ignore the interface.")
+      @default (value="(-1.0, -1.0, -1.0, -1.0, -1.0, -1.0)")
+      float__6 fraction_of_duty_cycle;
+    };
+  };
+};

@@ -1,0 +1,1 @@
+/RM_ws/build/robomaster_msgs/rosidl_typesupport_fastrtps_c/robomaster_msgs/msg/detail/audio_opus__rosidl_typesupport_fastrtps_c.h

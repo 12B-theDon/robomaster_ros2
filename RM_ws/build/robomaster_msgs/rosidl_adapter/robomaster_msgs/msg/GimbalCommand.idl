@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robomaster_msgs/msg/GimbalCommand.msg
+// generated code does not contain a copyright notice
+
+
+module robomaster_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Command to control the gripper in speed")
+    struct GimbalCommand {
+      @verbatim (language="comment", text=
+        "target yaw angular speed in rad/m")
+      @default (value=0.0)
+      float yaw_speed;
+
+      @verbatim (language="comment", text=
+        "target pitch angular speed in rad/m")
+      @default (value=0.0)
+      float pitch_speed;
+    };
+  };
+};

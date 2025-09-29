@@ -1,0 +1,1 @@
+/RM_ws/build/robomaster_msgs/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/msg/detail/region_of_interest__rosidl_typesupport_fastrtps_cpp.hpp

@@ -1,0 +1,6 @@
+Invoking command in '/RM_ws/build/robomaster_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/RM_ws/install/robomaster_ros:/opt/ros/humble /usr/bin/cmake /RM_ws/src/robomaster_ros_pkg/robomaster_msgs -DCMAKE_INSTALL_PREFIX=/RM_ws/install/robomaster_msgs
+Invoked command in '/RM_ws/build/robomaster_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/RM_ws/install/robomaster_ros:/opt/ros/humble /usr/bin/cmake /RM_ws/src/robomaster_ros_pkg/robomaster_msgs -DCMAKE_INSTALL_PREFIX=/RM_ws/install/robomaster_msgs
+Invoking command in '/RM_ws/build/robomaster_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/RM_ws/install/robomaster_ros:/opt/ros/humble /usr/bin/cmake --build /RM_ws/build/robomaster_msgs -- -j8 -l8
+Invoked command in '/RM_ws/build/robomaster_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/RM_ws/install/robomaster_ros:/opt/ros/humble /usr/bin/cmake --build /RM_ws/build/robomaster_msgs -- -j8 -l8
+Invoking command in '/RM_ws/build/robomaster_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/RM_ws/install/robomaster_ros:/opt/ros/humble /usr/bin/cmake --install /RM_ws/build/robomaster_msgs
+Invoked command in '/RM_ws/build/robomaster_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/RM_ws/install/robomaster_ros:/opt/ros/humble /usr/bin/cmake --install /RM_ws/build/robomaster_msgs

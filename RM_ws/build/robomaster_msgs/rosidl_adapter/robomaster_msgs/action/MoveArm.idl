@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from robomaster_msgs/action/MoveArm.action
+// generated code does not contain a copyright notice
+
+
+module robomaster_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "An action to move the arm end effector using the onboard control." "\n"
+      "Coodinates may be relative to the current end effector position or" "\n"
+      "absolute with respect to ``arm_base_link``." "\n"
+      "" "\n"
+      "The action succeeds when the end effector come closest to the target point as possible" "\n"
+      ".. note:: it may not be able to reach the target point")
+    struct MoveArm_Goal {
+      @verbatim (language="comment", text=
+        "target x-coordinate in meter (x-axis points forwards)")
+      float x;
+
+      @verbatim (language="comment", text=
+        "target z-coordinate in meter (z-axis points upwards)")
+      float z;
+
+      @verbatim (language="comment", text=
+        "whenever the coordinates are relative or absolute.")
+      boolean relative;
+    };
+    struct MoveArm_Result {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct MoveArm_Feedback {
+      @verbatim (language="comment", text=
+        "the relative progress towards goal from 0 to 1")
+      float progress;
+    };
+  };
+};

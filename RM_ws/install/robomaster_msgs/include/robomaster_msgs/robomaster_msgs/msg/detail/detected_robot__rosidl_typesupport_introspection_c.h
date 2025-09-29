@@ -1,0 +1,1 @@
+/RM_ws/build/robomaster_msgs/rosidl_typesupport_introspection_c/robomaster_msgs/msg/detail/detected_robot__rosidl_typesupport_introspection_c.h

@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robomaster_msgs/msg/AudioData.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module robomaster_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Raw audio samples" "\n"
+      ".. note::" "\n"
+      "  Unlike ROS1, ROS2 has no ``audio_common_msgs``, so for now we define our own format" "\n"
+      "  to publish the raw 16-bit 48Khz audio stream from the camera mono microphone")
+    struct AudioData {
+      @verbatim (language="comment", text=
+        "the timestamp and frame of the microphone recording")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "an array of 16-bit audio samples")
+      sequence<int16> data;
+    };
+  };
+};

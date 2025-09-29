@@ -1,0 +1,1 @@
+/RM_ws/build/ffmpeg_encoder_decoder/ament_cmake_environment_hooks/local_setup.sh

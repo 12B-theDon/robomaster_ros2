@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robomaster_msgs/msg/RegionOfInterest.msg
+// generated code does not contain a copyright notice
+
+
+module robomaster_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "A region of interest (ROS) in an image" "\n"
+      "All values are in [0, 1] and are relative to image width and height")
+    struct RegionOfInterest {
+      @verbatim (language="comment", text=
+        "horizontal position of the ROI center" "\n"
+        "as fraction of the image width" "\n"
+        "(0 if the ROI includes the left edge of the image)")
+      float x_offset;
+
+      @verbatim (language="comment", text=
+        "vertical position of the ROI center" "\n"
+        "as fraction of the image height" "\n"
+        "(0 if the ROI includes the top edge of the image)")
+      float y_offset;
+
+      @verbatim (language="comment", text=
+        "height of ROI")
+      float height;
+
+      @verbatim (language="comment", text=
+        "width of ROI")
+      float width;
+    };
+  };
+};

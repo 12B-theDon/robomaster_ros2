@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from robomaster_msgs/action/MoveServo.action
+// generated code does not contain a copyright notice
+
+
+module robomaster_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "An action to rotate a servo using the onboard control." "\n"
+      "" "\n"
+      "The action succeeds when the servo reaches the target angle.")
+    struct MoveServo_Goal {
+      @verbatim (language="comment", text=
+        "ID of the servo (between 0 and 2)")
+      uint8 index;
+
+      @verbatim (language="comment", text=
+        "absolute target angle in rad")
+      float angle;
+    };
+    struct MoveServo_Result {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct MoveServo_Feedback {
+      @verbatim (language="comment", text=
+        "the relative progress towards goal from 0 to 1")
+      float progress;
+    };
+  };
+};

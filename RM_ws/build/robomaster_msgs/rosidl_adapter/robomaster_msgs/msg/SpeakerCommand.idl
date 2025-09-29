@@ -1,0 +1,42 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robomaster_msgs/msg/SpeakerCommand.msg
+// generated code does not contain a copyright notice
+
+
+module robomaster_msgs {
+  module msg {
+    module SpeakerCommand_Constants {
+      @verbatim (language="comment", text=
+        "Stop playing sound")
+      const uint8 CONTROL_STOP = 0;
+      @verbatim (language="comment", text=
+        "Start playing sound after stopping currently played sounds")
+      const uint8 CONTROL_PLAY = 1;
+      @verbatim (language="comment", text=
+        "Start playing sound, without stopping currently played sounds")
+      const uint8 CONTROL_ADD = 2;
+    };
+    @verbatim (language="comment", text=
+      "An command to stop or play a predefined sound or an audio file from the speaker.")
+    struct SpeakerCommand {
+      @verbatim (language="comment", text=
+        "ID of the sound to play")
+      @default (value=1)
+      int32 sound_id;
+
+      @verbatim (language="comment", text=
+        "how many times to play the same sound (0: infinite loop)")
+      @default (value=1)
+      uint8 times;
+
+      @verbatim (language="comment", text=
+        "Control command: one of ``CONTROL_STOP``, ``CONTROL_PLAY``, ``CONTROL_ADD``")
+      uint8 control;
+
+      @verbatim (language="comment", text=
+        "if not empry, the local file to be played.")
+      @default (value="")
+      string file;
+    };
+  };
+};

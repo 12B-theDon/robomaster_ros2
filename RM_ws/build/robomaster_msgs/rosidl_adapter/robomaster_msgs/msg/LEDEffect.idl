@@ -1,0 +1,90 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robomaster_msgs/msg/LEDEffect.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/ColorRGBA.idl"
+
+module robomaster_msgs {
+  module msg {
+    module LEDEffect_Constants {
+      @verbatim (language="comment", text=
+        "mask: chassis rear LED")
+      const uint8 BOTTOM_BACK = 1;
+      @verbatim (language="comment", text=
+        "mask: chassis front LED")
+      const uint8 BOTTOM_FRONT = 2;
+      @verbatim (language="comment", text=
+        "mask: chassis left LED")
+      const uint8 BOTTOM_LEFT = 4;
+      @verbatim (language="comment", text=
+        "mask: chassis right LED")
+      const uint8 BOTTOM_RIGHT = 8;
+      @verbatim (language="comment", text=
+        "mask: all chassis LEDs")
+      const uint8 BOTTOM = 15;
+      @verbatim (language="comment", text=
+        "mask: gimbal left LED")
+      const uint8 TOP_LEFT = 16;
+      @verbatim (language="comment", text=
+        "mask: gimbal right LED")
+      const uint8 TOP_RIGHT = 32;
+      @verbatim (language="comment", text=
+        "mask: all gimbal LEDs")
+      const uint8 TOP = 48;
+      @verbatim (language="comment", text=
+        "mask: all LEDs")
+      const uint8 ALL = 63;
+      @verbatim (language="comment", text=
+        "effect: switch off LED")
+      const uint8 OFF = 0;
+      @verbatim (language="comment", text=
+        "effect: switch LED to solid color")
+      const uint8 ON = 1;
+      @verbatim (language="comment", text=
+        "effect: breath")
+      const uint8 BREATH = 2;
+      @verbatim (language="comment", text=
+        "effect: flash LED")
+      const uint8 FLASH = 3;
+      @verbatim (language="comment", text=
+        "effect: scrolling")
+      const uint8 SCROLLING = 4;
+      @verbatim (language="comment", text=
+        "effect: pulse LED")
+      const uint8 PULSE = 5;
+    };
+    @verbatim (language="comment", text=
+      "Control commands for all LEDs")
+    struct LEDEffect {
+      @verbatim (language="comment", text=
+        "bitmask mask to select which LEDs to control")
+      @default (value=63)
+      uint8 mask;
+
+      @verbatim (language="comment", text=
+        "bitmask to select which portions of the gimbal LED to control." "\n"
+        "The 7 sub LEDs are enumerate clockwise")
+      @default (value=255)
+      uint8 submask;
+
+      @verbatim (language="comment", text=
+        "One of the effect enums")
+      @default (value=1)
+      uint8 effect;
+
+      @verbatim (language="comment", text=
+        "The desired LED color (not relevant for ``effect=OFF``)")
+      std_msgs::msg::ColorRGBA color;
+
+      @verbatim (language="comment", text=
+        "On interval duration, only relevant for effects ``PULSE`` and ``FLASH``.")
+      @default (value=1.0)
+      float t1;
+
+      @verbatim (language="comment", text=
+        "Off interval duration, only relevant for effects ``PULSE`` and ``FLASH``.")
+      @default (value=1.0)
+      float t2;
+    };
+  };
+};

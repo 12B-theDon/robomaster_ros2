@@ -1,0 +1,6 @@
+Invoking command in '/RM_ws/build/ffmpeg_image_transport_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /RM_ws/src/ffmpeg_image_transport_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/RM_ws/install/ffmpeg_image_transport_msgs
+Invoked command in '/RM_ws/build/ffmpeg_image_transport_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /RM_ws/src/ffmpeg_image_transport_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/RM_ws/install/ffmpeg_image_transport_msgs
+Invoking command in '/RM_ws/build/ffmpeg_image_transport_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /RM_ws/build/ffmpeg_image_transport_msgs -- -j8 -l8
+Invoked command in '/RM_ws/build/ffmpeg_image_transport_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /RM_ws/build/ffmpeg_image_transport_msgs -- -j8 -l8
+Invoking command in '/RM_ws/build/ffmpeg_image_transport_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /RM_ws/build/ffmpeg_image_transport_msgs
+Invoked command in '/RM_ws/build/ffmpeg_image_transport_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /RM_ws/build/ffmpeg_image_transport_msgs

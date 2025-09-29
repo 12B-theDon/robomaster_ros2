@@ -1,0 +1,62 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robomaster_msgs/msg/ChassisStatus.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module robomaster_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "High-level chassis state provided by the robot through :py:meth:`robomaster.chassis.Chassis.sub_status`" "\n"
+      "TODO(Jerome): check")
+    struct ChassisStatus {
+      @verbatim (language="comment", text=
+        "header with the time stamp of the update")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "whenever the robot is still")
+      boolean is_static;
+
+      @verbatim (language="comment", text=
+        "whenever the robot is facing uphill")
+      boolean up_hill;
+
+      @verbatim (language="comment", text=
+        "whenever the robot is facing downhill")
+      boolean down_hill;
+
+      @verbatim (language="comment", text=
+        "whenever the robot is on a lateral slope")
+      boolean on_slope;
+
+      @verbatim (language="comment", text=
+        "whenever the robot has been picked up")
+      boolean is_pick_up;
+
+      @verbatim (language="comment", text=
+        "whenever wheels are slipping")
+      boolean slip;
+
+      @verbatim (language="comment", text=
+        "whenever the accelerometer has registered a collision longitudinally")
+      boolean impact_x;
+
+      @verbatim (language="comment", text=
+        "whenever the accelerometer has registered a collision laterally")
+      boolean impact_y;
+
+      @verbatim (language="comment", text=
+        "whenever the accelerometer has registered a collision vertically")
+      boolean impact_z;
+
+      @verbatim (language="comment", text=
+        "whenever the robot is capsized")
+      boolean roll_over;
+
+      @verbatim (language="comment", text=
+        "whenever the robot is facing uphill and is still.")
+      boolean hill;
+    };
+  };
+};

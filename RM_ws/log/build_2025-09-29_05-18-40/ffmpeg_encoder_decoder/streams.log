@@ -1,0 +1,44 @@
+[0.027s] Invoking command in '/RM_ws/build/ffmpeg_encoder_decoder': CMAKE_PREFIX_PATH=/RM_ws/install/ffmpeg_image_transport_msgs:/RM_ws/install/robomaster_msgs:/RM_ws/install/robomaster_description:/RM_ws/install/ffmpeg_image_transport:/RM_ws/install/ffmpeg_encoder_decoder:/RM_ws/install/robomaster_ros:/opt/ros/humble LD_LIBRARY_PATH=/RM_ws/install/ffmpeg_image_transport_msgs/lib:/RM_ws/install/robomaster_msgs/lib:/RM_ws/install/ffmpeg_image_transport/lib:/RM_ws/install/ffmpeg_encoder_decoder/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /RM_ws/build/ffmpeg_encoder_decoder -- -j8 -l8
+[0.172s] [ 41%] Built target ffmpeg_encoder_decoder
+[0.215s] [ 58%] Built target gtest
+[0.279s] [ 75%] Built target gtest_main
+[0.329s] [100%] Built target ffmpeg_encoder_decoder_test
+[0.345s] Invoked command in '/RM_ws/build/ffmpeg_encoder_decoder' returned '0': CMAKE_PREFIX_PATH=/RM_ws/install/ffmpeg_image_transport_msgs:/RM_ws/install/robomaster_msgs:/RM_ws/install/robomaster_description:/RM_ws/install/ffmpeg_image_transport:/RM_ws/install/ffmpeg_encoder_decoder:/RM_ws/install/robomaster_ros:/opt/ros/humble LD_LIBRARY_PATH=/RM_ws/install/ffmpeg_image_transport_msgs/lib:/RM_ws/install/robomaster_msgs/lib:/RM_ws/install/ffmpeg_image_transport/lib:/RM_ws/install/ffmpeg_encoder_decoder/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /RM_ws/build/ffmpeg_encoder_decoder -- -j8 -l8
+[0.351s] Invoking command in '/RM_ws/build/ffmpeg_encoder_decoder': CMAKE_PREFIX_PATH=/RM_ws/install/ffmpeg_image_transport_msgs:/RM_ws/install/robomaster_msgs:/RM_ws/install/robomaster_description:/RM_ws/install/ffmpeg_image_transport:/RM_ws/install/ffmpeg_encoder_decoder:/RM_ws/install/robomaster_ros:/opt/ros/humble LD_LIBRARY_PATH=/RM_ws/install/ffmpeg_image_transport_msgs/lib:/RM_ws/install/robomaster_msgs/lib:/RM_ws/install/ffmpeg_image_transport/lib:/RM_ws/install/ffmpeg_encoder_decoder/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /RM_ws/build/ffmpeg_encoder_decoder
+[0.358s] -- Install configuration: ""
+[0.359s] -- Execute custom install script
+[0.360s] -- Up-to-date symlink: /RM_ws/install/ffmpeg_encoder_decoder/share/ffmpeg_encoder_decoder/environment/library_path.sh
+[0.361s] -- Up-to-date symlink: /RM_ws/install/ffmpeg_encoder_decoder/share/ffmpeg_encoder_decoder/environment/library_path.dsv
+[0.361s] -- Up-to-date symlink: /RM_ws/install/ffmpeg_encoder_decoder/include/ffmpeg_encoder_decoder/decoder.hpp
+[0.361s] -- Up-to-date symlink: /RM_ws/install/ffmpeg_encoder_decoder/include/ffmpeg_encoder_decoder/encoder.hpp
+[0.362s] -- Up-to-date symlink: /RM_ws/install/ffmpeg_encoder_decoder/include/ffmpeg_encoder_decoder/pts_map.hpp
+[0.362s] -- Up-to-date symlink: /RM_ws/install/ffmpeg_encoder_decoder/include/ffmpeg_encoder_decoder/safe_param.hpp
+[0.362s] -- Up-to-date symlink: /RM_ws/install/ffmpeg_encoder_decoder/include/ffmpeg_encoder_decoder/tdiff.hpp
+[0.363s] -- Up-to-date symlink: /RM_ws/install/ffmpeg_encoder_decoder/include/ffmpeg_encoder_decoder/types.hpp
+[0.363s] -- Up-to-date symlink: /RM_ws/install/ffmpeg_encoder_decoder/include/ffmpeg_encoder_decoder/utils.hpp
+[0.363s] -- Up-to-date symlink: /RM_ws/install/ffmpeg_encoder_decoder/share/ament_index/resource_index/package_run_dependencies/ffmpeg_encoder_decoder
+[0.363s] -- Up-to-date symlink: /RM_ws/install/ffmpeg_encoder_decoder/share/ament_index/resource_index/parent_prefix_path/ffmpeg_encoder_decoder
+[0.363s] -- Up-to-date symlink: /RM_ws/install/ffmpeg_encoder_decoder/share/ffmpeg_encoder_decoder/environment/ament_prefix_path.sh
+[0.363s] -- Up-to-date symlink: /RM_ws/install/ffmpeg_encoder_decoder/share/ffmpeg_encoder_decoder/environment/ament_prefix_path.dsv
+[0.363s] -- Up-to-date symlink: /RM_ws/install/ffmpeg_encoder_decoder/share/ffmpeg_encoder_decoder/environment/path.sh
+[0.363s] -- Up-to-date symlink: /RM_ws/install/ffmpeg_encoder_decoder/share/ffmpeg_encoder_decoder/environment/path.dsv
+[0.364s] -- Up-to-date symlink: /RM_ws/install/ffmpeg_encoder_decoder/share/ffmpeg_encoder_decoder/local_setup.bash
+[0.364s] -- Up-to-date symlink: /RM_ws/install/ffmpeg_encoder_decoder/share/ffmpeg_encoder_decoder/local_setup.sh
+[0.364s] -- Up-to-date symlink: /RM_ws/install/ffmpeg_encoder_decoder/share/ffmpeg_encoder_decoder/local_setup.zsh
+[0.364s] -- Up-to-date symlink: /RM_ws/install/ffmpeg_encoder_decoder/share/ffmpeg_encoder_decoder/local_setup.dsv
+[0.364s] -- Symlinking: /RM_ws/install/ffmpeg_encoder_decoder/share/ffmpeg_encoder_decoder/package.dsv
+[0.374s] -- Up-to-date symlink: /RM_ws/install/ffmpeg_encoder_decoder/share/ament_index/resource_index/packages/ffmpeg_encoder_decoder
+[0.375s] -- Up-to-date symlink: /RM_ws/install/ffmpeg_encoder_decoder/share/ffmpeg_encoder_decoder/cmake/ffmpeg_encoder_decoder-extras.cmake
+[0.375s] -- Up-to-date symlink: /RM_ws/install/ffmpeg_encoder_decoder/share/ffmpeg_encoder_decoder/cmake/ament_cmake_export_targets-extras.cmake
+[0.375s] -- Up-to-date symlink: /RM_ws/install/ffmpeg_encoder_decoder/share/ffmpeg_encoder_decoder/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.375s] -- Up-to-date symlink: /RM_ws/install/ffmpeg_encoder_decoder/share/ffmpeg_encoder_decoder/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.375s] -- Up-to-date symlink: /RM_ws/install/ffmpeg_encoder_decoder/share/ffmpeg_encoder_decoder/cmake/ament_cmake_export_libraries-extras.cmake
+[0.375s] -- Up-to-date symlink: /RM_ws/install/ffmpeg_encoder_decoder/share/ffmpeg_encoder_decoder/cmake/ffmpeg_encoder_decoderConfig.cmake
+[0.375s] -- Up-to-date symlink: /RM_ws/install/ffmpeg_encoder_decoder/share/ffmpeg_encoder_decoder/cmake/ffmpeg_encoder_decoderConfig-version.cmake
+[0.375s] -- Up-to-date symlink: /RM_ws/install/ffmpeg_encoder_decoder/share/ffmpeg_encoder_decoder/package.xml
+[0.375s] -- Up-to-date: /RM_ws/install/ffmpeg_encoder_decoder/lib/libffmpeg_encoder_decoder.so
+[0.376s] -- Up-to-date: /RM_ws/install/ffmpeg_encoder_decoder/share/ffmpeg_encoder_decoder/cmake/ffmpeg_encoder_decoderTargetsExport.cmake
+[0.376s] -- Up-to-date: /RM_ws/install/ffmpeg_encoder_decoder/share/ffmpeg_encoder_decoder/cmake/ffmpeg_encoder_decoderTargetsExport-noconfig.cmake
+[0.376s] -- Up-to-date: /RM_ws/install/ffmpeg_encoder_decoder/share/ffmpeg_encoder_decoder/cmake/ffmpeg_encoder_decoderTargetsExport.cmake
+[0.376s] -- Up-to-date: /RM_ws/install/ffmpeg_encoder_decoder/share/ffmpeg_encoder_decoder/cmake/ffmpeg_encoder_decoderTargetsExport-noconfig.cmake
+[0.381s] Invoked command in '/RM_ws/build/ffmpeg_encoder_decoder' returned '0': CMAKE_PREFIX_PATH=/RM_ws/install/ffmpeg_image_transport_msgs:/RM_ws/install/robomaster_msgs:/RM_ws/install/robomaster_description:/RM_ws/install/ffmpeg_image_transport:/RM_ws/install/ffmpeg_encoder_decoder:/RM_ws/install/robomaster_ros:/opt/ros/humble LD_LIBRARY_PATH=/RM_ws/install/ffmpeg_image_transport_msgs/lib:/RM_ws/install/robomaster_msgs/lib:/RM_ws/install/ffmpeg_image_transport/lib:/RM_ws/install/ffmpeg_encoder_decoder/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /RM_ws/build/ffmpeg_encoder_decoder

@@ -1,0 +1,1173 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+-- Found PythonExtra: .so  
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /RM_ws/build/robomaster_msgs
+[  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  0%] Built target ament_cmake_python_symlink_robomaster_msgs
+running egg_info
+creating robomaster_msgs.egg-info
+writing robomaster_msgs.egg-info/PKG-INFO
+writing dependency_links to robomaster_msgs.egg-info/dependency_links.txt
+writing top-level names to robomaster_msgs.egg-info/top_level.txt
+writing manifest file 'robomaster_msgs.egg-info/SOURCES.txt'
+reading manifest file 'robomaster_msgs.egg-info/SOURCES.txt'
+writing manifest file 'robomaster_msgs.egg-info/SOURCES.txt'
+[  0%] Built target ament_cmake_python_build_robomaster_msgs_egg
+[  0%] Built target robomaster_msgs__cpp
+[  0%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[  0%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[  1%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[  2%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/msg/detail/led_effect__functions.c.o[0m
+[  2%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/msg/detail/wheel_speeds__functions.c.o[0m
+[  2%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/msg/detail/chassis_status__functions.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/msg/detail/pwm__functions.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/msg/detail/s_bus__functions.c.o[0m
+[  3%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/msg/detail/gripper_state__functions.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/msg/detail/camera_config__functions.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/msg/detail/armor_hit__functions.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/msg/detail/detected_line__functions.c.o[0m
+[  4%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/msg/detail/detected_gesture__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/msg/detail/detected_marker__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/msg/detail/detected_person__functions.c.o[0m
+[  5%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/msg/detail/detected_robot__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/msg/detail/detection__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/msg/detail/region_of_interest__functions.c.o[0m
+[  6%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/msg/detail/serial__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/msg/detail/servo_command__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/msg/detail/gimbal_command__functions.c.o[0m
+[  7%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/msg/detail/blaster_led__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/msg/detail/mode__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/msg/detail/audio_data__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/msg/detail/audio_level__functions.c.o[0m
+[  8%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/msg/detail/audio_opus__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/msg/detail/h264_packet__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/msg/detail/sensor_adapter__functions.c.o[0m
+[  9%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/msg/detail/servo_raw_state__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/msg/detail/speaker_command__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/action/detail/move__functions.c.o[0m
+[ 10%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/action/detail/move_arm__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/action/detail/gripper_control__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/action/detail/play_sound__functions.c.o[0m
+[ 11%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/action/detail/move_servo__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/action/detail/move_gimbal__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/action/detail/recenter_gimbal__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/srv/detail/get_io__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/srv/detail/get_adc__functions.c.o[0m
+[ 12%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/srv/detail/get_servo_angle__functions.c.o[0m
+[ 13%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_c.dir/rosidl_generator_c/robomaster_msgs/srv/detail/get_pulse__functions.c.o[0m
+[ 13%] [32m[1mLinking C shared library librobomaster_msgs__rosidl_generator_c.so[0m
+[ 13%] Built target robomaster_msgs__rosidl_generator_c
+[ 16%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 16%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 16%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/msg/wheel_speeds__type_support.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/msg/led_effect__type_support.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/msg/chassis_status__type_support.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/msg/s_bus__type_support.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/msg/pwm__type_support.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/msg/gripper_state__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/msg/camera_config__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/msg/armor_hit__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/msg/detected_line__type_support.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/msg/detected_gesture__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/msg/detected_marker__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/msg/detected_person__type_support.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/msg/detected_robot__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/msg/detection__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/msg/region_of_interest__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/msg/detail/wheel_speeds__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/msg/serial__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/msg/detail/led_effect__type_support.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/msg/detail/chassis_status__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/msg/servo_command__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/msg/gimbal_command__type_support.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/msg/blaster_led__type_support.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/msg/detail/s_bus__type_support.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/msg/wheel_speeds__type_support.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/msg/led_effect__type_support.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/msg/mode__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/msg/detail/dds_fastrtps/wheel_speeds__type_support.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/msg/chassis_status__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/msg/s_bus__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/msg/pwm__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/msg/audio_data__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/msg/gripper_state__type_support.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/msg/detail/pwm__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/msg/camera_config__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/msg/armor_hit__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/msg/detected_line__type_support.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/msg/detail/dds_fastrtps/led_effect__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/msg/detected_gesture__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/msg/detail/gripper_state__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/msg/detected_marker__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/msg/detected_person__type_support.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/msg/audio_level__type_support.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/msg/detected_robot__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/msg/detail/camera_config__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/msg/detection__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/msg/region_of_interest__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/msg/serial__type_support.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/msg/detail/dds_fastrtps/chassis_status__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/msg/servo_command__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/msg/gimbal_command__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/msg/blaster_led__type_support.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/msg/audio_opus__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/msg/mode__type_support.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/msg/audio_data__type_support.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/msg/detail/dds_fastrtps/s_bus__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/msg/h264_packet__type_support.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/msg/audio_level__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/msg/audio_opus__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/msg/h264_packet__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/msg/detail/armor_hit__type_support.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/msg/sensor_adapter__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/msg/servo_raw_state__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/msg/speaker_command__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/action/move__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/msg/detail/dds_fastrtps/pwm__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/msg/detail/detected_line__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/action/move_arm__type_support.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/msg/sensor_adapter__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/action/gripper_control__type_support.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/action/play_sound__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/msg/detail/detected_gesture__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/action/move_servo__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/msg/servo_raw_state__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/action/move_gimbal__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/action/recenter_gimbal__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/msg/detail/dds_fastrtps/gripper_state__type_support.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/srv/get_adc__type_support.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/msg/speaker_command__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/srv/get_io__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/msg/detail/detected_marker__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/srv/get_pulse__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/robomaster_msgs/srv/get_servo_angle__type_support.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/msg/detail/detected_person__type_support.cpp.o[0m
+[ 42%] [32m[1mLinking CXX shared library librobomaster_msgs__rosidl_typesupport_c.so[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/msg/detail/dds_fastrtps/camera_config__type_support.cpp.o[0m
+[ 43%] Built target robomaster_msgs__rosidl_typesupport_c
+[ 43%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/action/move__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/msg/detail/dds_fastrtps/armor_hit__type_support.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/msg/detail/dds_fastrtps/detected_line__type_support.cpp.o[0m
+[ 43%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/msg/detail/wheel_speeds__type_support.c.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/action/move_arm__type_support.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/msg/detail/detected_robot__type_support.cpp.o[0m
+[ 44%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/msg/detail/led_effect__type_support.c.o[0m
+[ 45%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/msg/detail/chassis_status__type_support.c.o[0m
+[ 45%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/msg/detail/s_bus__type_support.c.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/msg/detail/wheel_speeds__type_support_c.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/action/gripper_control__type_support.cpp.o[0m
+[ 46%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/msg/detail/pwm__type_support.c.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/msg/detail/dds_fastrtps/detected_gesture__type_support.cpp.o[0m
+[ 48%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/msg/detail/gripper_state__type_support.c.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/action/play_sound__type_support.cpp.o[0m
+[ 48%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/msg/detail/camera_config__type_support.c.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/action/move_servo__type_support.cpp.o[0m
+[ 48%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/msg/detail/armor_hit__type_support.c.o[0m
+[ 48%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/msg/detail/detected_line__type_support.c.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/msg/detail/detection__type_support.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/msg/detail/led_effect__type_support_c.cpp.o[0m
+[ 49%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/msg/detail/detected_gesture__type_support.c.o[0m
+[ 49%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/msg/detail/detected_marker__type_support.c.o[0m
+[ 49%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/msg/detail/detected_person__type_support.c.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/action/move_gimbal__type_support.cpp.o[0m
+[ 51%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/msg/detail/detected_robot__type_support.c.o[0m
+[ 51%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/msg/detail/detection__type_support.c.o[0m
+[ 51%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/msg/detail/region_of_interest__type_support.c.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/msg/detail/serial__type_support.c.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/msg/detail/servo_command__type_support.c.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/msg/detail/dds_fastrtps/detected_marker__type_support.cpp.o[0m
+[ 52%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/msg/detail/gimbal_command__type_support.c.o[0m
+[ 53%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/msg/detail/blaster_led__type_support.c.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/msg/detail/chassis_status__type_support_c.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/msg/detail/dds_fastrtps/detected_person__type_support.cpp.o[0m
+[ 54%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/msg/detail/mode__type_support.c.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/action/recenter_gimbal__type_support.cpp.o[0m
+[ 54%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/msg/detail/audio_data__type_support.c.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/srv/get_adc__type_support.cpp.o[0m
+[ 54%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/msg/detail/audio_level__type_support.c.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/msg/detail/audio_opus__type_support.c.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/msg/detail/h264_packet__type_support.c.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/msg/detail/region_of_interest__type_support.cpp.o[0m
+[ 55%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/msg/detail/sensor_adapter__type_support.c.o[0m
+[ 56%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/msg/detail/servo_raw_state__type_support.c.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/msg/detail/s_bus__type_support_c.cpp.o[0m
+[ 56%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/msg/detail/speaker_command__type_support.c.o[0m
+[ 56%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/action/detail/move__type_support.c.o[0m
+[ 57%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/action/detail/move_arm__type_support.c.o[0m
+[ 57%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/action/detail/gripper_control__type_support.c.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/srv/get_io__type_support.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/msg/detail/dds_fastrtps/detected_robot__type_support.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/srv/get_pulse__type_support.cpp.o[0m
+[ 58%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/action/detail/play_sound__type_support.c.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/msg/detail/pwm__type_support_c.cpp.o[0m
+[ 59%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/action/detail/move_servo__type_support.c.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/msg/detail/serial__type_support.cpp.o[0m
+[ 59%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/action/detail/move_gimbal__type_support.c.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/msg/detail/servo_command__type_support.cpp.o[0m
+[ 60%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/action/detail/recenter_gimbal__type_support.c.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/msg/detail/gripper_state__type_support_c.cpp.o[0m
+[ 60%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/srv/detail/get_adc__type_support.c.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/msg/detail/dds_fastrtps/detection__type_support.cpp.o[0m
+[ 62%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/srv/detail/get_io__type_support.c.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robomaster_msgs/srv/get_servo_angle__type_support.cpp.o[0m
+[ 62%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/srv/detail/get_pulse__type_support.c.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/msg/detail/gimbal_command__type_support.cpp.o[0m
+[ 62%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robomaster_msgs/srv/detail/get_servo_angle__type_support.c.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/msg/detail/camera_config__type_support_c.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/msg/detail/dds_fastrtps/region_of_interest__type_support.cpp.o[0m
+[ 64%] [32m[1mLinking C shared library librobomaster_msgs__rosidl_typesupport_introspection_c.so[0m
+[ 64%] Built target robomaster_msgs__rosidl_typesupport_introspection_c
+[ 64%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/msg/detail/blaster_led__type_support.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/msg/detail/dds_fastrtps/serial__type_support.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/msg/detail/armor_hit__type_support_c.cpp.o[0m
+[ 64%] [32m[1mLinking CXX shared library librobomaster_msgs__rosidl_typesupport_cpp.so[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/msg/detail/detected_line__type_support_c.cpp.o[0m
+[ 64%] Built target robomaster_msgs__rosidl_typesupport_cpp
+[ 65%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/msg/detail/detected_gesture__type_support_c.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/msg/detail/mode__type_support.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/msg/detail/detected_marker__type_support_c.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/msg/detail/dds_fastrtps/servo_command__type_support.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/msg/detail/audio_data__type_support.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/msg/detail/detected_person__type_support_c.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/msg/detail/dds_fastrtps/gimbal_command__type_support.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/msg/detail/detected_robot__type_support_c.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/msg/detail/detection__type_support_c.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/msg/detail/audio_level__type_support.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/msg/detail/audio_opus__type_support.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/msg/detail/dds_fastrtps/blaster_led__type_support.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/msg/detail/dds_fastrtps/mode__type_support.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/msg/detail/region_of_interest__type_support_c.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/msg/detail/h264_packet__type_support.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/msg/detail/dds_fastrtps/audio_data__type_support.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/msg/detail/serial__type_support_c.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/msg/detail/dds_fastrtps/audio_level__type_support.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/msg/detail/sensor_adapter__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/msg/detail/servo_raw_state__type_support.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/msg/detail/servo_command__type_support_c.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/msg/detail/speaker_command__type_support.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/msg/detail/dds_fastrtps/audio_opus__type_support.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/msg/detail/gimbal_command__type_support_c.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/msg/detail/dds_fastrtps/h264_packet__type_support.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/msg/detail/dds_fastrtps/sensor_adapter__type_support.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/action/detail/move__type_support.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/msg/detail/dds_fastrtps/servo_raw_state__type_support.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/action/detail/move_arm__type_support.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/msg/detail/blaster_led__type_support_c.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/msg/detail/mode__type_support_c.cpp.o[0m
+[ 74%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/msg/detail/audio_data__type_support_c.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/action/detail/gripper_control__type_support.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/msg/detail/audio_level__type_support_c.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/msg/detail/dds_fastrtps/speaker_command__type_support.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/action/detail/play_sound__type_support.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/action/detail/dds_fastrtps/move__type_support.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/msg/detail/audio_opus__type_support_c.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/action/detail/dds_fastrtps/move_arm__type_support.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/action/detail/move_servo__type_support.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/msg/detail/h264_packet__type_support_c.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/msg/detail/sensor_adapter__type_support_c.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/action/detail/move_gimbal__type_support.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/action/detail/dds_fastrtps/gripper_control__type_support.cpp.o[0m
+[ 79%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/action/detail/recenter_gimbal__type_support.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/msg/detail/servo_raw_state__type_support_c.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/srv/detail/get_adc__type_support.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/srv/detail/get_io__type_support.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/msg/detail/speaker_command__type_support_c.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/action/detail/dds_fastrtps/play_sound__type_support.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/action/detail/move__type_support_c.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/srv/detail/get_pulse__type_support.cpp.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/action/detail/dds_fastrtps/move_servo__type_support.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/action/detail/move_arm__type_support_c.cpp.o[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robomaster_msgs/srv/detail/get_servo_angle__type_support.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/action/detail/dds_fastrtps/move_gimbal__type_support.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/action/detail/dds_fastrtps/recenter_gimbal__type_support.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/srv/detail/dds_fastrtps/get_adc__type_support.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/srv/detail/dds_fastrtps/get_io__type_support.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/action/detail/gripper_control__type_support_c.cpp.o[0m
+[ 85%] [32m[1mLinking CXX shared library librobomaster_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/action/detail/play_sound__type_support_c.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/srv/detail/dds_fastrtps/get_pulse__type_support.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/action/detail/move_servo__type_support_c.cpp.o[0m
+[ 85%] Built target robomaster_msgs__rosidl_typesupport_introspection_cpp
+[ 85%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/srv/detail/dds_fastrtps/get_servo_angle__type_support.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/action/detail/move_gimbal__type_support_c.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/action/detail/recenter_gimbal__type_support_c.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/srv/detail/get_adc__type_support_c.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/srv/detail/get_io__type_support_c.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/srv/detail/get_pulse__type_support_c.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robomaster_msgs/srv/detail/get_servo_angle__type_support_c.cpp.o[0m
+[ 87%] [32m[1mLinking CXX shared library librobomaster_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 87%] Built target robomaster_msgs__rosidl_typesupport_fastrtps_cpp
+[ 88%] [32m[1mLinking CXX shared library librobomaster_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[ 88%] Built target robomaster_msgs__rosidl_typesupport_fastrtps_c
+[ 88%] Built target robomaster_msgs
+[ 88%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 88%] Built target robomaster_msgs__py
+[ 89%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/msg/_chassis_status_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/msg/_led_effect_s.c.o[0m
+[ 89%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/msg/_wheel_speeds_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/msg/_s_bus_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/msg/_pwm_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/msg/_gripper_state_s.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/msg/_camera_config_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/msg/_armor_hit_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/msg/_detected_line_s.c.o[0m
+[ 91%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/msg/_detected_gesture_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/msg/_detected_marker_s.c.o[0m
+[ 92%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/msg/_detected_person_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/msg/_detected_robot_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/msg/_detection_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/msg/_region_of_interest_s.c.o[0m
+[ 93%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/msg/_serial_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/msg/_servo_command_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/msg/_blaster_led_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/msg/_mode_s.c.o[0m
+[ 94%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/msg/_gimbal_command_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/msg/_audio_data_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/msg/_audio_level_s.c.o[0m
+[ 95%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/msg/_audio_opus_s.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/msg/_h264_packet_s.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/msg/_sensor_adapter_s.c.o[0m
+[ 96%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/msg/_servo_raw_state_s.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/msg/_speaker_command_s.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/action/_move_s.c.o[0m
+[ 97%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/action/_move_arm_s.c.o[0m
+[ 98%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/action/_gripper_control_s.c.o[0m
+[ 98%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/action/_play_sound_s.c.o[0m
+[ 98%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/action/_move_servo_s.c.o[0m
+[ 98%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/action/_move_gimbal_s.c.o[0m
+[ 99%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/action/_recenter_gimbal_s.c.o[0m
+[ 99%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/srv/_get_adc_s.c.o[0m
+[ 99%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/srv/_get_io_s.c.o[0m
+[100%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/srv/_get_pulse_s.c.o[0m
+[100%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_generator_py.dir/rosidl_generator_py/robomaster_msgs/srv/_get_servo_angle_s.c.o[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/robomaster_msgs/librobomaster_msgs__rosidl_generator_py.so[0m
+[100%] Built target robomaster_msgs__rosidl_generator_py
+[100%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robomaster_msgs/_robomaster_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[100%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robomaster_msgs/_robomaster_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[100%] [32mBuilding C object CMakeFiles/robomaster_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robomaster_msgs/_robomaster_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/robomaster_msgs/robomaster_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/robomaster_msgs/robomaster_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/robomaster_msgs/robomaster_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[100%] Built target robomaster_msgs__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target robomaster_msgs__rosidl_typesupport_c__pyext
+[100%] Built target robomaster_msgs__rosidl_typesupport_introspection_c__pyext
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/ament_index/resource_index/rosidl_interfaces/robomaster_msgs
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/gripper_control__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/gripper_control__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/gripper_control__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move_arm__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move_arm__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move_arm__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move_gimbal__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move_gimbal__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move_gimbal__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move_servo__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move_servo__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move_servo__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/play_sound__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/play_sound__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/play_sound__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/recenter_gimbal__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/recenter_gimbal__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/recenter_gimbal__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/gripper_control.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/move.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/move_arm.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/move_gimbal.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/move_servo.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/play_sound.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/recenter_gimbal.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/armor_hit.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/audio_data.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/audio_level.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/audio_opus.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/blaster_led.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/camera_config.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/chassis_status.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/armor_hit__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/armor_hit__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/armor_hit__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/audio_data__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/audio_data__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/audio_data__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/audio_level__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/audio_level__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/audio_level__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/audio_opus__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/audio_opus__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/audio_opus__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/blaster_led__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/blaster_led__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/blaster_led__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/camera_config__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/camera_config__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/camera_config__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/chassis_status__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/chassis_status__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/chassis_status__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_gesture__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_gesture__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_gesture__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_line__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_line__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_line__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_marker__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_marker__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_marker__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_person__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_person__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_person__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_robot__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_robot__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_robot__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detection__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detection__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detection__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/gimbal_command__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/gimbal_command__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/gimbal_command__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/gripper_state__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/gripper_state__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/gripper_state__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/h264_packet__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/h264_packet__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/h264_packet__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/led_effect__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/led_effect__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/led_effect__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/mode__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/mode__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/mode__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/pwm__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/pwm__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/pwm__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/region_of_interest__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/region_of_interest__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/region_of_interest__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/s_bus__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/s_bus__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/s_bus__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/sensor_adapter__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/sensor_adapter__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/sensor_adapter__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/serial__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/serial__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/serial__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/servo_command__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/servo_command__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/servo_command__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/servo_raw_state__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/servo_raw_state__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/servo_raw_state__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/speaker_command__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/speaker_command__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/speaker_command__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/wheel_speeds__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/wheel_speeds__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/wheel_speeds__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detected_gesture.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detected_line.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detected_marker.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detected_person.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detected_robot.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detection.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/gimbal_command.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/gripper_state.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/h264_packet.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/led_effect.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/mode.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/pwm.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/region_of_interest.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/s_bus.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/sensor_adapter.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/serial.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/servo_command.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/servo_raw_state.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/speaker_command.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/wheel_speeds.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_adc__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_adc__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_adc__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_io__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_io__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_io__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_pulse__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_pulse__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_pulse__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_servo_angle__functions.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_servo_angle__struct.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_servo_angle__type_support.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/get_adc.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/get_io.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/get_pulse.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/get_servo_angle.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/environment/library_path.sh
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/environment/library_path.dsv
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/gripper_control__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move_arm__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move_gimbal__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move_servo__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/play_sound__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/recenter_gimbal__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/armor_hit__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/audio_data__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/audio_level__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/audio_opus__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/blaster_led__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/camera_config__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/chassis_status__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_gesture__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_line__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_marker__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_person__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_robot__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/gimbal_command__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/gripper_state__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/h264_packet__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/led_effect__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/mode__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/pwm__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/region_of_interest__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/s_bus__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/sensor_adapter__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/serial__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/servo_command__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/servo_raw_state__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/speaker_command__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/wheel_speeds__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_adc__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_io__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_pulse__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_servo_angle__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/gripper_control__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move_arm__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move_gimbal__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move_servo__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/play_sound__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/recenter_gimbal__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/armor_hit__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/audio_data__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/audio_level__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/audio_opus__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/blaster_led__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/camera_config__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/chassis_status__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_gesture__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_line__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_marker__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_person__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_robot__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detection__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/gimbal_command__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/gripper_state__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/h264_packet__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/led_effect__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/mode__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/pwm__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/region_of_interest__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/s_bus__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/sensor_adapter__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/serial__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/servo_command__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/servo_raw_state__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/speaker_command__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/wheel_speeds__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_adc__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_io__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_pulse__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_servo_angle__rosidl_typesupport_introspection_c.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/gripper_control__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/gripper_control__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/gripper_control__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/gripper_control__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move_arm__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move_arm__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move_arm__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move_arm__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move_gimbal__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move_gimbal__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move_gimbal__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move_gimbal__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move_servo__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move_servo__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move_servo__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move_servo__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/play_sound__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/play_sound__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/play_sound__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/play_sound__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/recenter_gimbal__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/recenter_gimbal__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/recenter_gimbal__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/recenter_gimbal__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/gripper_control.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/move.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/move_arm.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/move_gimbal.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/move_servo.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/play_sound.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/recenter_gimbal.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/armor_hit.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/audio_data.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/audio_level.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/audio_opus.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/blaster_led.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/camera_config.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/chassis_status.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/armor_hit__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/armor_hit__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/armor_hit__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/armor_hit__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/audio_data__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/audio_data__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/audio_data__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/audio_data__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/audio_level__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/audio_level__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/audio_level__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/audio_level__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/audio_opus__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/audio_opus__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/audio_opus__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/audio_opus__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/blaster_led__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/blaster_led__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/blaster_led__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/blaster_led__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/camera_config__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/camera_config__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/camera_config__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/camera_config__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/chassis_status__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/chassis_status__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/chassis_status__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/chassis_status__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_gesture__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_gesture__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_gesture__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_gesture__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_line__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_line__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_line__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_line__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_marker__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_marker__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_marker__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_marker__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_person__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_person__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_person__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_person__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_robot__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_robot__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_robot__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_robot__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detection__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detection__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detection__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detection__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/gimbal_command__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/gimbal_command__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/gimbal_command__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/gimbal_command__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/gripper_state__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/gripper_state__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/gripper_state__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/gripper_state__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/h264_packet__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/h264_packet__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/h264_packet__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/h264_packet__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/led_effect__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/led_effect__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/led_effect__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/led_effect__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/mode__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/mode__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/mode__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/mode__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/pwm__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/pwm__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/pwm__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/pwm__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/region_of_interest__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/region_of_interest__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/region_of_interest__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/region_of_interest__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/s_bus__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/s_bus__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/s_bus__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/s_bus__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/sensor_adapter__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/sensor_adapter__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/sensor_adapter__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/sensor_adapter__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/serial__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/serial__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/serial__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/serial__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/servo_command__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/servo_command__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/servo_command__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/servo_command__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/servo_raw_state__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/servo_raw_state__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/servo_raw_state__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/servo_raw_state__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/speaker_command__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/speaker_command__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/speaker_command__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/speaker_command__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/wheel_speeds__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/wheel_speeds__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/wheel_speeds__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/wheel_speeds__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detected_gesture.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detected_line.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detected_marker.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detected_person.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detected_robot.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detection.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/gimbal_command.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/gripper_state.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/h264_packet.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/led_effect.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/mode.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/pwm.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/region_of_interest.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/s_bus.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/sensor_adapter.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/serial.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/servo_command.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/servo_raw_state.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/speaker_command.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/wheel_speeds.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_adc__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_adc__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_adc__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_adc__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_io__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_io__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_io__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_io__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_pulse__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_pulse__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_pulse__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_pulse__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_servo_angle__builder.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_servo_angle__struct.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_servo_angle__traits.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_servo_angle__type_support.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/get_adc.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/get_io.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/get_pulse.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/get_servo_angle.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/gripper_control__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move_arm__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move_gimbal__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move_servo__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/play_sound__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/recenter_gimbal__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/armor_hit__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/audio_data__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/audio_level__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/audio_opus__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/blaster_led__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/camera_config__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/chassis_status__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_gesture__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_line__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_marker__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_person__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_robot__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detection__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/gimbal_command__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/gripper_state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/h264_packet__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/led_effect__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/mode__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/pwm__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/region_of_interest__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/s_bus__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/sensor_adapter__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/serial__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/servo_command__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/servo_raw_state__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/speaker_command__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/wheel_speeds__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_adc__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_io__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_pulse__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_servo_angle__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/gripper_control__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move_arm__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move_gimbal__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/move_servo__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/play_sound__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/action/detail/recenter_gimbal__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/armor_hit__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/audio_data__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/audio_level__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/audio_opus__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/blaster_led__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/camera_config__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/chassis_status__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_gesture__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_line__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_marker__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_person__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detected_robot__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/detection__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/gimbal_command__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/gripper_state__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/h264_packet__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/led_effect__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/mode__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/pwm__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/region_of_interest__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/s_bus__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/sensor_adapter__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/serial__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/servo_command__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/servo_raw_state__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/speaker_command__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/msg/detail/wheel_speeds__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_adc__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_io__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_pulse__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/include/robomaster_msgs/robomaster_msgs/srv/detail/get_servo_angle__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/environment/pythonpath.sh
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/environment/pythonpath.dsv
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs-0.2.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs-0.2.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs-0.2.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs-0.2.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/__init__.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/_robomaster_msgs_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/_robomaster_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/_robomaster_msgs_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/action/__init__.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/action/_gripper_control.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/action/_gripper_control_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/action/_move.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/action/_move_arm.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/action/_move_arm_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/action/_move_gimbal.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/action/_move_gimbal_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/action/_move_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/action/_move_servo.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/action/_move_servo_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/action/_play_sound.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/action/_play_sound_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/action/_recenter_gimbal.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/action/_recenter_gimbal_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/librobomaster_msgs__rosidl_generator_py.so
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/__init__.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_armor_hit.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_armor_hit_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_audio_data.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_audio_data_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_audio_level.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_audio_level_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_audio_opus.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_audio_opus_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_blaster_led.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_blaster_led_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_camera_config.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_camera_config_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_chassis_status.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_chassis_status_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_detected_gesture.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_detected_gesture_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_detected_line.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_detected_line_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_detected_marker.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_detected_marker_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_detected_person.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_detected_person_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_detected_robot.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_detected_robot_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_detection.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_detection_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_gimbal_command.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_gimbal_command_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_gripper_state.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_gripper_state_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_h264_packet.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_h264_packet_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_led_effect.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_led_effect_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_mode.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_mode_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_pwm.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_pwm_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_region_of_interest.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_region_of_interest_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_s_bus.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_s_bus_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_sensor_adapter.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_sensor_adapter_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_serial.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_serial_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_servo_command.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_servo_command_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_servo_raw_state.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_servo_raw_state_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_speaker_command.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_speaker_command_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_wheel_speeds.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_wheel_speeds_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/robomaster_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/robomaster_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/robomaster_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/srv/__init__.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/srv/_get_adc.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/srv/_get_adc_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/srv/_get_io.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/srv/_get_io_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/srv/_get_pulse.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/srv/_get_pulse_s.c
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/srv/_get_servo_angle.py
+-- Symlinking: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/srv/_get_servo_angle_s.c
+-- Up-to-date symlink: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/robomaster_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/robomaster_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Up-to-date symlink: /RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/robomaster_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/WheelSpeeds.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/LEDEffect.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/ChassisStatus.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/SBus.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/PWM.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/GripperState.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/CameraConfig.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/ArmorHit.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/DetectedLine.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/DetectedGesture.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/DetectedMarker.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/DetectedPerson.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/DetectedRobot.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/Detection.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/RegionOfInterest.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/Serial.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/ServoCommand.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/GimbalCommand.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/BlasterLED.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/Mode.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/AudioData.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/AudioLevel.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/AudioOpus.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/H264Packet.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/SensorAdapter.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/ServoRawState.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/SpeakerCommand.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/action/Move.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/action/MoveArm.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/action/GripperControl.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/action/PlaySound.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/action/MoveServo.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/action/MoveGimbal.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/action/RecenterGimbal.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/srv/GetADC.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/srv/GetIO.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/srv/GetPulse.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/srv/GetServoAngle.idl
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/WheelSpeeds.msg
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/LEDEffect.msg
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/ChassisStatus.msg
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/SBus.msg
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/PWM.msg
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/GripperState.msg
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/CameraConfig.msg
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/ArmorHit.msg
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/DetectedLine.msg
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/DetectedGesture.msg
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/DetectedMarker.msg
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/DetectedPerson.msg
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/DetectedRobot.msg
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/Detection.msg
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/RegionOfInterest.msg
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/Serial.msg
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/ServoCommand.msg
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/GimbalCommand.msg
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/BlasterLED.msg
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/Mode.msg
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/AudioData.msg
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/AudioLevel.msg
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/AudioOpus.msg
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/H264Packet.msg
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/SensorAdapter.msg
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/ServoRawState.msg
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/msg/SpeakerCommand.msg
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/action/Move.action
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/action/MoveArm.action
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/action/GripperControl.action
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/action/PlaySound.action
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/action/MoveServo.action
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/action/MoveGimbal.action
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/action/RecenterGimbal.action
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/srv/GetADC.srv
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/srv/GetADC_Request.msg
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/srv/GetADC_Response.msg
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/srv/GetIO.srv
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/srv/GetIO_Request.msg
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/srv/GetIO_Response.msg
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/srv/GetPulse.srv
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/srv/GetPulse_Request.msg
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/srv/GetPulse_Response.msg
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/srv/GetServoAngle.srv
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/srv/GetServoAngle_Request.msg
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/srv/GetServoAngle_Response.msg
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/ament_index/resource_index/package_run_dependencies/robomaster_msgs
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/ament_index/resource_index/parent_prefix_path/robomaster_msgs
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/environment/ament_prefix_path.sh
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/environment/ament_prefix_path.dsv
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/environment/path.sh
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/environment/path.dsv
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/local_setup.bash
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/local_setup.sh
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/local_setup.zsh
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/local_setup.dsv
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/package.dsv
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/ament_index/resource_index/packages/robomaster_msgs
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/cmake/robomaster_msgsConfig.cmake
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/cmake/robomaster_msgsConfig-version.cmake
+-- Symlinking: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/package.xml
+-- Installing: /RM_ws/install/robomaster_msgs/lib/librobomaster_msgs__rosidl_generator_c.so
+-- Set runtime path of "/RM_ws/install/robomaster_msgs/lib/librobomaster_msgs__rosidl_generator_c.so" to ""
+-- Installing: /RM_ws/install/robomaster_msgs/lib/librobomaster_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/RM_ws/install/robomaster_msgs/lib/librobomaster_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /RM_ws/install/robomaster_msgs/lib/librobomaster_msgs__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/RM_ws/install/robomaster_msgs/lib/librobomaster_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /RM_ws/install/robomaster_msgs/lib/librobomaster_msgs__rosidl_typesupport_c.so
+-- Set runtime path of "/RM_ws/install/robomaster_msgs/lib/librobomaster_msgs__rosidl_typesupport_c.so" to ""
+-- Installing: /RM_ws/install/robomaster_msgs/lib/librobomaster_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/RM_ws/install/robomaster_msgs/lib/librobomaster_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /RM_ws/install/robomaster_msgs/lib/librobomaster_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/RM_ws/install/robomaster_msgs/lib/librobomaster_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /RM_ws/install/robomaster_msgs/lib/librobomaster_msgs__rosidl_typesupport_cpp.so
+-- Set runtime path of "/RM_ws/install/robomaster_msgs/lib/librobomaster_msgs__rosidl_typesupport_cpp.so" to ""
+Listing '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/__init__.py'...
+Listing '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/action'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/action/__init__.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/action/_gripper_control.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/action/_move.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/action/_move_arm.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/action/_move_gimbal.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/action/_move_servo.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/action/_play_sound.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/action/_recenter_gimbal.py'...
+Listing '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/__init__.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_armor_hit.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_audio_data.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_audio_level.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_audio_opus.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_blaster_led.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_camera_config.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_chassis_status.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_detected_gesture.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_detected_line.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_detected_marker.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_detected_person.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_detected_robot.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_detection.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_gimbal_command.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_gripper_state.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_h264_packet.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_led_effect.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_mode.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_pwm.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_region_of_interest.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_s_bus.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_sensor_adapter.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_serial.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_servo_command.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_servo_raw_state.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_speaker_command.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/msg/_wheel_speeds.py'...
+Listing '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/srv'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/srv/__init__.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/srv/_get_adc.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/srv/_get_io.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/srv/_get_pulse.py'...
+Compiling '/RM_ws/install/robomaster_msgs/local/lib/python3.10/dist-packages/robomaster_msgs/srv/_get_servo_angle.py'...
+-- Installing: /RM_ws/install/robomaster_msgs/lib/librobomaster_msgs__rosidl_generator_py.so
+-- Set runtime path of "/RM_ws/install/robomaster_msgs/lib/librobomaster_msgs__rosidl_generator_py.so" to ""
+-- Installing: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/cmake/export_robomaster_msgs__rosidl_generator_cExport.cmake
+-- Installing: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/cmake/export_robomaster_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/cmake/export_robomaster_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/cmake/export_robomaster_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/cmake/robomaster_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/cmake/robomaster_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/cmake/robomaster_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/cmake/robomaster_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/cmake/export_robomaster_msgs__rosidl_generator_cppExport.cmake
+-- Installing: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/cmake/export_robomaster_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/cmake/export_robomaster_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/cmake/robomaster_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/cmake/robomaster_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/cmake/robomaster_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/cmake/robomaster_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/cmake/export_robomaster_msgs__rosidl_generator_pyExport.cmake
+-- Installing: /RM_ws/install/robomaster_msgs/share/robomaster_msgs/cmake/export_robomaster_msgs__rosidl_generator_pyExport-noconfig.cmake

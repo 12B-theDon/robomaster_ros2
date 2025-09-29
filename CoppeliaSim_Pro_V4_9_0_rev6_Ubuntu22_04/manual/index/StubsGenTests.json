@@ -1,0 +1,19 @@
+{
+    "StubsGenTests": {
+        "basic": "StubsGenTests.htm#basic",
+        "nullable": "StubsGenTests.htm#nullable",
+        "test_struct2": "StubsGenTests.htm#test_struct2",
+        "struct_table": "StubsGenTests.htm#struct_table",
+        "struct_default": "StubsGenTests.htm#struct_default",
+        "test_grid": "StubsGenTests.htm#test_grid",
+        "test_grid2": "StubsGenTests.htm#test_grid2",
+        "testLuaNullable": "StubsGenTests.htm#testLuaNullable",
+        "testLuaDefault": "StubsGenTests.htm#testLuaDefault",
+        "enum1": "StubsGenTests.htm#enum:enum1",
+        "enum1.a": "StubsGenTests.htm#enum:enum1",
+        "enum1.b": "StubsGenTests.htm#enum:enum1",
+        "enum1.the_answer": "StubsGenTests.htm#enum:enum1",
+        "struct1": "StubsGenTests.htm#struct:struct1",
+        "struct2": "StubsGenTests.htm#struct:struct2"
+    }
+}

@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from robomaster_msgs/srv/GetIO.srv
+// generated code does not contain a copyright notice
+
+
+module robomaster_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      "Command to read an IO pin state of sensor adapters.")
+    struct GetIO_Request {
+      @verbatim (language="comment", text=
+        "0 or 1: ID of one of two interfaces of a sensor adapter")
+      uint8 id;
+
+      @verbatim (language="comment", text=
+        "0, 1, 2, or 3: ID of one of the 4 sensor adapter that can be connected to the robot")
+      uint8 port;
+    };
+    struct GetIO_Response {
+      @verbatim (language="comment", text=
+        "whenever the sensor adapter is enabled")
+      boolean valid;
+
+      @verbatim (language="comment", text=
+        "the pin state (0 or 1)")
+      uint8 value;
+    };
+  };
+};

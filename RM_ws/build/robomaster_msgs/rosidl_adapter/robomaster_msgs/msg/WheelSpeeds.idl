@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robomaster_msgs/msg/WheelSpeeds.msg
+// generated code does not contain a copyright notice
+
+
+module robomaster_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "A Command to set linear speeds for each wheel of the robot.")
+    struct WheelSpeeds {
+      @verbatim (language="comment", text=
+        "front left wheel tangential speed in m/s")
+      float front_left;
+
+      @verbatim (language="comment", text=
+        "front right wheel tangential speed in m/s")
+      float front_right;
+
+      @verbatim (language="comment", text=
+        "rear left wheel tangential speed in m/s")
+      float rear_left;
+
+      @verbatim (language="comment", text=
+        "rear right wheel tangential speed in m/s")
+      float rear_right;
+    };
+  };
+};

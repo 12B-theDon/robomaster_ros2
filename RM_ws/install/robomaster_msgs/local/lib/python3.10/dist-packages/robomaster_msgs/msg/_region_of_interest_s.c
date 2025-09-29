@@ -1,0 +1,1 @@
+/RM_ws/build/robomaster_msgs/rosidl_generator_py/robomaster_msgs/msg/_region_of_interest_s.c

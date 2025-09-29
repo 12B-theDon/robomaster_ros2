@@ -1,0 +1,1 @@
+/RM_ws/build/robomaster_msgs/rosidl_generator_cpp/robomaster_msgs/srv/detail/get_pulse__type_support.hpp

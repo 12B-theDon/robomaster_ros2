@@ -1,0 +1,1 @@
+/RM_ws/build/robomaster_msgs/rosidl_generator_cpp/robomaster_msgs/msg/region_of_interest.hpp

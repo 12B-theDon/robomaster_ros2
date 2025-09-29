@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robomaster_msgs/msg/DetectedRobot.msg
+// generated code does not contain a copyright notice
+
+#include "robomaster_msgs/msg/RegionOfInterest.idl"
+
+module robomaster_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Information about a robot detected using vision")
+    struct DetectedRobot {
+      @verbatim (language="comment", text=
+        "bounding box")
+      robomaster_msgs::msg::RegionOfInterest roi;
+    };
+  };
+};

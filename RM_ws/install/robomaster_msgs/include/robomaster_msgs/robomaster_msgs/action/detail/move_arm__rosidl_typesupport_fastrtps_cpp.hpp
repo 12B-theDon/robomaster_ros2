@@ -1,0 +1,1 @@
+/RM_ws/build/robomaster_msgs/rosidl_typesupport_fastrtps_cpp/robomaster_msgs/action/detail/move_arm__rosidl_typesupport_fastrtps_cpp.hpp

@@ -1,0 +1,1 @@
+/RM_ws/src/robomaster_ros_pkg/robomaster_msgs/msg/Detection.msg

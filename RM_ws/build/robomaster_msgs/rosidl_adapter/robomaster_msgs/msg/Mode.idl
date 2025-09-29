@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robomaster_msgs/msg/Mode.msg
+// generated code does not contain a copyright notice
+
+
+module robomaster_msgs {
+  module msg {
+    module Mode_Constants {
+      @verbatim (language="comment", text=
+        "mode: gimbal and chassis are decoupled")
+      const uint8 FREE = 0;
+      @verbatim (language="comment", text=
+        "mode: chassis follows gimbal movements" "\n"        "to maintain the same relative orientation")
+      const uint8 GIMBAL_LEAD = 1;
+      @verbatim (language="comment", text=
+        "mode: gimbal follows gimbal movements" "\n"        "to maintain the same relative orientation")
+      const uint8 CHASSIS_LEAD = 2;
+    };
+    @verbatim (language="comment", text=
+      "Coupling control model between gimbal and chassis.")
+    struct Mode {
+      @verbatim (language="comment", text=
+        "coupling mode, one of ``FREE``, ``GIMBAL_LEAD``, ``CHASSIS_LEAD``")
+      uint8 mode;
+    };
+  };
+};

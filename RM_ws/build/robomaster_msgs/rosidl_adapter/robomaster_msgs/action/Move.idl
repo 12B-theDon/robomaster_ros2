@@ -1,0 +1,44 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from robomaster_msgs/action/Move.action
+// generated code does not contain a copyright notice
+
+
+module robomaster_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "An action to move the robot relative to its current pose," "\n"
+      "at desired angular and linear speeds using the onboard control." "\n"
+      "" "\n"
+      "The action succeeds when the robot arrives near the goal pose.")
+    struct Move_Goal {
+      @verbatim (language="comment", text=
+        "target relative position" "\n"
+        "(longitudinal component with positive towards front)")
+      float x;
+
+      float y;
+
+      @verbatim (language="comment", text=
+        "target relative angle in rad")
+      float theta;
+
+      @verbatim (language="comment", text=
+        "maximal linear speed in m/s")
+      @default (value=0.5)
+      float linear_speed;
+
+      @verbatim (language="comment", text=
+        "maximal angular speed in rad/s (default is 30 deg/s)")
+      @default (value=0.5236)
+      float angular_speed;
+    };
+    struct Move_Result {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct Move_Feedback {
+      @verbatim (language="comment", text=
+        "the relative progress towards goal from 0 to 1")
+      float progress;
+    };
+  };
+};

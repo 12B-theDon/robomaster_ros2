@@ -1,0 +1,1 @@
+/RM_ws/build/robomaster_msgs/rosidl_typesupport_introspection_c/robomaster_msgs/msg/detail/chassis_status__rosidl_typesupport_introspection_c.h

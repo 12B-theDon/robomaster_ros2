@@ -1,0 +1,1 @@
+/RM_ws/build/robomaster_msgs/rosidl_generator_cpp/robomaster_msgs/msg/detail/armor_hit__struct.hpp

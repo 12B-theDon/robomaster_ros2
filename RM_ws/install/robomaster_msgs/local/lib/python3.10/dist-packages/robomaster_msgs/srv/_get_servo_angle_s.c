@@ -1,0 +1,1 @@
+/RM_ws/build/robomaster_msgs/rosidl_generator_py/robomaster_msgs/srv/_get_servo_angle_s.c

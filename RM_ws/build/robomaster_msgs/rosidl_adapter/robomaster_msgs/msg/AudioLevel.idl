@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robomaster_msgs/msg/AudioLevel.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module robomaster_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Sound level" "\n"
+      ".. note::" "\n"
+      "  Unlike ROS1, ROS2 has no ``audio_common_msgs``, so we define our own format" "\n"
+      "  for sound level in dBFS")
+    struct AudioLevel {
+      @verbatim (language="comment", text=
+        "the timestamp and frame of the microphone recording")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "sound level in dBFS")
+      float level;
+    };
+  };
+};

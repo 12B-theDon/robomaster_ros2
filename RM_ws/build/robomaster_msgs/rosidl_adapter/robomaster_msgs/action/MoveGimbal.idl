@@ -1,0 +1,62 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from robomaster_msgs/action/MoveGimbal.action
+// generated code does not contain a copyright notice
+
+
+module robomaster_msgs {
+  module action {
+    module MoveGimbal_Goal_Constants {
+      @verbatim (language="comment", text=
+        "Frame: gravity aligned, origin set at boot" "\n"        "(same frame as chassis odometry and imu)")
+      const uint8 FIXED = 0;
+      @verbatim (language="comment", text=
+        "Frame: attached to gimbal, useful to send relative movements.")
+      const uint8 GIMBAL = 1;
+      @verbatim (language="comment", text=
+        "Frame: yaw aligned to chassis, pitch as in GIMBAL")
+      const uint8 CHASSIS_GIMBAL_PITCH = 2;
+      @verbatim (language="comment", text=
+        "Frame: yaw aligned to chassis, pitch as in FIXED")
+      const uint8 CHASSIS_FIXED_PITCH = 3;
+    };
+    @verbatim (language="comment", text=
+      "An action to rotate the gimbal using the onboard control." "\n"
+      "Attitute can be specified in four different frames." "\n"
+      "" "\n"
+      "The action succeeds when the gimbal reaches the target orientation.")
+    struct MoveGimbal_Goal {
+      @verbatim (language="comment", text=
+        "target yaw in rad")
+      float yaw;
+
+      @verbatim (language="comment", text=
+        "target pitch in rad")
+      float pitch;
+
+      @verbatim (language="comment", text=
+        "maximal yaw rotation speed in rad/s")
+      @default (value=0.52)
+      float yaw_speed;
+
+      @verbatim (language="comment", text=
+        "maximal pitch rotation speed in rad/s")
+      @default (value=0.52)
+      float pitch_speed;
+
+      @verbatim (language="comment", text=
+        "the frame in which target orientation is specified." "\n"
+        "One of ``FIXED``, ``GIMBAL``, ``CHASSIS_GIMBAL_PITCH``," "\n"
+        "or ``CHASSIS_FIXED_PITCH``")
+      @default (value=3)
+      uint8 frame;
+    };
+    struct MoveGimbal_Result {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct MoveGimbal_Feedback {
+      @verbatim (language="comment", text=
+        "the relative progress towards goal from 0 to 1")
+      float progress;
+    };
+  };
+};

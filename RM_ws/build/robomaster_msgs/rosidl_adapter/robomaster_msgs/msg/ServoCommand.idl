@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robomaster_msgs/msg/ServoCommand.msg
+// generated code does not contain a copyright notice
+
+
+module robomaster_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Command to control a servo in speed")
+    struct ServoCommand {
+      @verbatim (language="comment", text=
+        "ID of the servo (between 0 and 2)")
+      uint8 index;
+
+      @verbatim (language="comment", text=
+        "whenever to engage or disengage the servo")
+      @default (value=TRUE)
+      boolean enable;
+
+      @verbatim (language="comment", text=
+        "target angular speed in rad/m")
+      @default (value=0.0)
+      float angular_speed;
+    };
+  };
+};

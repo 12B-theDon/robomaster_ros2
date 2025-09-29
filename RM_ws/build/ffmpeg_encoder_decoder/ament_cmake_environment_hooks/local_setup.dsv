@@ -1,0 +1,3 @@
+source;share/ffmpeg_encoder_decoder/environment/ament_prefix_path.sh
+source;share/ffmpeg_encoder_decoder/environment/library_path.sh
+source;share/ffmpeg_encoder_decoder/environment/path.sh

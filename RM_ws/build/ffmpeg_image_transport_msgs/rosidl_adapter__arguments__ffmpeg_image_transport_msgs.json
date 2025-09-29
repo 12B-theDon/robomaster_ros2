@@ -1,0 +1,6 @@
+{
+  "package_name": "ffmpeg_image_transport_msgs",
+  "non_idl_tuples": [
+    "/RM_ws/src/ffmpeg_image_transport_msgs:msg/FFMPEGPacket.msg"
+  ]
+}

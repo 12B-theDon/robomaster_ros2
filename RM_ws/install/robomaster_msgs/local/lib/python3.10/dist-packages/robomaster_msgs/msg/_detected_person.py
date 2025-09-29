@@ -1,0 +1,1 @@
+/RM_ws/build/robomaster_msgs/rosidl_generator_py/robomaster_msgs/msg/_detected_person.py

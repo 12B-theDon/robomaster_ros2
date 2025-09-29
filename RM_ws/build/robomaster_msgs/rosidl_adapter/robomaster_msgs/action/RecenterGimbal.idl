@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from robomaster_msgs/action/RecenterGimbal.action
+// generated code does not contain a copyright notice
+
+
+module robomaster_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "An action to recenter the gimbal using the onboard control" "\n"
+      "distict from :ros:action:`MoveGimbal` to trigger a specific onboard action." "\n"
+      "" "\n"
+      "The action succeeds when the gimbal reaches the neutral orientation.")
+    struct RecenterGimbal_Goal {
+      @verbatim (language="comment", text=
+        "maximal yaw rotation speed in rad/s")
+      @default (value=1.04)
+      float yaw_speed;
+
+      @verbatim (language="comment", text=
+        "maximal pitch rotation speed in rad/s")
+      @default (value=1.04)
+      float pitch_speed;
+    };
+    struct RecenterGimbal_Result {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct RecenterGimbal_Feedback {
+      @verbatim (language="comment", text=
+        "the relative progress towards goal from 0 to 1")
+      float progress;
+    };
+  };
+};

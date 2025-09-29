@@ -1,0 +1,58 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robomaster_msgs/msg/ArmorHit.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module robomaster_msgs {
+  module msg {
+    module ArmorHit_Constants {
+      @verbatim (language="comment", text=
+        "sensor location: on back of the chassis")
+      const uint8 BOTTOM_BACK = 1;
+      @verbatim (language="comment", text=
+        "sensor location: on front of the chassis")
+      const uint8 BOTTOM_FRONT = 2;
+      @verbatim (language="comment", text=
+        "sensor location: on left of the chassis")
+      const uint8 BOTTOM_LEFT = 4;
+      @verbatim (language="comment", text=
+        "sensor location: on right of the chassis")
+      const uint8 BOTTOM_RIGHT = 8;
+      @verbatim (language="comment", text=
+        "sensor location: on left of the gimbal")
+      const uint8 TOP_LEFT = 16;
+      @verbatim (language="comment", text=
+        "sensor location: on right of the gimbal")
+      const uint8 TOP_RIGHT = 32;
+      @verbatim (language="comment", text=
+        "type: detected by a microphone")
+      const uint8 COLLISION = 0;
+      @verbatim (language="comment", text=
+        "type: detected by the IR sensor")
+      const uint8 IR = 1;
+    };
+    @verbatim (language="comment", text=
+      "A hit event detected by one of the sensors placed behind the LEDs." "\n"
+      "The Robomaster detects two kind of hits: collision using microphones," "\n"
+      "and infrared beams using infrared receivers.")
+    struct ArmorHit {
+      @verbatim (language="comment", text=
+        "header with the time stamp of the hit")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "type of hit; one of ``COLLISION`` or ``IR``")
+      uint8 type;
+
+      @verbatim (language="comment", text=
+        "a bit mask for which sensors have detected the hit")
+      uint8 location;
+
+      @verbatim (language="comment", text=
+        "the hit impact strength as measured by the sensor microphone." "\n"
+        "Only applies to events of ``COLLISION`` type")
+      uint16 level;
+    };
+  };
+};

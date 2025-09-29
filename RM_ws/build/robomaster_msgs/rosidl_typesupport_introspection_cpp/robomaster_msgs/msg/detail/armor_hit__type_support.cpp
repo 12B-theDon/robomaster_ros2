@@ -1,0 +1,160 @@
+// generated from rosidl_typesupport_introspection_cpp/resource/idl__type_support.cpp.em
+// with input from robomaster_msgs:msg/ArmorHit.idl
+// generated code does not contain a copyright notice
+
+#include "array"
+#include "cstddef"
+#include "string"
+#include "vector"
+#include "rosidl_runtime_c/message_type_support_struct.h"
+#include "rosidl_typesupport_cpp/message_type_support.hpp"
+#include "rosidl_typesupport_interface/macros.h"
+#include "robomaster_msgs/msg/detail/armor_hit__struct.hpp"
+#include "rosidl_typesupport_introspection_cpp/field_types.hpp"
+#include "rosidl_typesupport_introspection_cpp/identifier.hpp"
+#include "rosidl_typesupport_introspection_cpp/message_introspection.hpp"
+#include "rosidl_typesupport_introspection_cpp/message_type_support_decl.hpp"
+#include "rosidl_typesupport_introspection_cpp/visibility_control.h"
+
+namespace robomaster_msgs
+{
+
+namespace msg
+{
+
+namespace rosidl_typesupport_introspection_cpp
+{
+
+void ArmorHit_init_function(
+  void * message_memory, rosidl_runtime_cpp::MessageInitialization _init)
+{
+  new (message_memory) robomaster_msgs::msg::ArmorHit(_init);
+}
+
+void ArmorHit_fini_function(void * message_memory)
+{
+  auto typed_message = static_cast<robomaster_msgs::msg::ArmorHit *>(message_memory);
+  typed_message->~ArmorHit();
+}
+
+static const ::rosidl_typesupport_introspection_cpp::MessageMember ArmorHit_message_member_array[4] = {
+  {
+    "header",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_MESSAGE,  // type
+    0,  // upper bound of string
+    ::rosidl_typesupport_introspection_cpp::get_message_type_support_handle<std_msgs::msg::Header>(),  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(robomaster_msgs::msg::ArmorHit, header),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
+    "type",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_UINT8,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(robomaster_msgs::msg::ArmorHit, type),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
+    "location",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_UINT8,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(robomaster_msgs::msg::ArmorHit, location),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
+  },
+  {
+    "level",  // name
+    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_UINT16,  // type
+    0,  // upper bound of string
+    nullptr,  // members of sub message
+    false,  // is array
+    0,  // array size
+    false,  // is upper bound
+    offsetof(robomaster_msgs::msg::ArmorHit, level),  // bytes offset in struct
+    nullptr,  // default value
+    nullptr,  // size() function pointer
+    nullptr,  // get_const(index) function pointer
+    nullptr,  // get(index) function pointer
+    nullptr,  // fetch(index, &value) function pointer
+    nullptr,  // assign(index, value) function pointer
+    nullptr  // resize(index) function pointer
+  }
+};
+
+static const ::rosidl_typesupport_introspection_cpp::MessageMembers ArmorHit_message_members = {
+  "robomaster_msgs::msg",  // message namespace
+  "ArmorHit",  // message name
+  4,  // number of fields
+  sizeof(robomaster_msgs::msg::ArmorHit),
+  ArmorHit_message_member_array,  // message members
+  ArmorHit_init_function,  // function to initialize message memory (memory has to be allocated)
+  ArmorHit_fini_function  // function to terminate message instance (will not free memory)
+};
+
+static const rosidl_message_type_support_t ArmorHit_message_type_support_handle = {
+  ::rosidl_typesupport_introspection_cpp::typesupport_identifier,
+  &ArmorHit_message_members,
+  get_message_typesupport_handle_function,
+};
+
+}  // namespace rosidl_typesupport_introspection_cpp
+
+}  // namespace msg
+
+}  // namespace robomaster_msgs
+
+
+namespace rosidl_typesupport_introspection_cpp
+{
+
+template<>
+ROSIDL_TYPESUPPORT_INTROSPECTION_CPP_PUBLIC
+const rosidl_message_type_support_t *
+get_message_type_support_handle<robomaster_msgs::msg::ArmorHit>()
+{
+  return &::robomaster_msgs::msg::rosidl_typesupport_introspection_cpp::ArmorHit_message_type_support_handle;
+}
+
+}  // namespace rosidl_typesupport_introspection_cpp
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+ROSIDL_TYPESUPPORT_INTROSPECTION_CPP_PUBLIC
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_cpp, robomaster_msgs, msg, ArmorHit)() {
+  return &::robomaster_msgs::msg::rosidl_typesupport_introspection_cpp::ArmorHit_message_type_support_handle;
+}
+
+#ifdef __cplusplus
+}
+#endif

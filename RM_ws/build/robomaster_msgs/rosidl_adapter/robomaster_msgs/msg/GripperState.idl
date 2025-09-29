@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robomaster_msgs/msg/GripperState.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module robomaster_msgs {
+  module msg {
+    module GripperState_Constants {
+      @verbatim (language="comment", text=
+        "Gripper inactive")
+      const uint8 PAUSE = 0;
+      @verbatim (language="comment", text=
+        "Gripper open")
+      const uint8 OPEN = 1;
+      @verbatim (language="comment", text=
+        "Gripper closed")
+      const uint8 CLOSE = 2;
+    };
+    @verbatim (language="comment", text=
+      "State of the gripper")
+    struct GripperState {
+      @verbatim (language="comment", text=
+        "header with the time stamp of the update")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "one of ``PAUSE``. ``OPEN``. or ``CLOSE``")
+      uint8 state;
+    };
+  };
+};

@@ -1,0 +1,1 @@
+/RM_ws/build/robomaster_msgs/rosidl_typesupport_fastrtps_c/robomaster_msgs/action/detail/move_servo__rosidl_typesupport_fastrtps_c.h

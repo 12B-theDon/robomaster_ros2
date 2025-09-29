@@ -1,0 +1,11 @@
+[console_scripts]
+connect = robomaster_ros.connect:main
+discover = robomaster_ros.discover:main
+display_battery = robomaster_ros.display_battery:main
+h264_decoder = robomaster_ros.decompress_h264:main
+keyboard_teleop = robomaster_ros.keyboard_teleop:main
+new_discover = robomaster_ros.new_discover:main
+play_audio = robomaster_ros.play_audio:main
+play_opus = robomaster_ros.play_audio_opus:main
+robomaster_driver = robomaster_ros.robomaster_driver:main
+

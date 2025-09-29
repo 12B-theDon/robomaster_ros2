@@ -1,0 +1,4 @@
+source;share/ffmpeg_encoder_decoder/local_setup.bash
+source;share/ffmpeg_encoder_decoder/local_setup.dsv
+source;share/ffmpeg_encoder_decoder/local_setup.sh
+source;share/ffmpeg_encoder_decoder/local_setup.zsh

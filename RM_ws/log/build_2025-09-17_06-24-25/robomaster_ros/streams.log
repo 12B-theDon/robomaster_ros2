@@ -1,0 +1,52 @@
+[0.372s] Invoking command in '/RM_ws/build/robomaster_ros': PYTHONPATH=/RM_ws/build/robomaster_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/RM_ws/install/robomaster_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /RM_ws/build/robomaster_ros/build --no-deps symlink_data
+[0.531s] running develop
+[0.614s] running egg_info
+[0.614s] creating robomaster_ros.egg-info
+[0.614s] writing robomaster_ros.egg-info/PKG-INFO
+[0.614s] writing dependency_links to robomaster_ros.egg-info/dependency_links.txt
+[0.614s] writing entry points to robomaster_ros.egg-info/entry_points.txt
+[0.614s] writing requirements to robomaster_ros.egg-info/requires.txt
+[0.614s] writing top-level names to robomaster_ros.egg-info/top_level.txt
+[0.614s] writing manifest file 'robomaster_ros.egg-info/SOURCES.txt'
+[0.616s] reading manifest file 'robomaster_ros.egg-info/SOURCES.txt'
+[0.616s] writing manifest file 'robomaster_ros.egg-info/SOURCES.txt'
+[0.617s] running build_ext
+[0.617s] Creating /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster-ros.egg-link (link to .)
+[0.618s] Installing connect script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+[0.618s] Installing discover script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+[0.618s] Installing display_battery script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+[0.618s] Installing h264_decoder script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+[0.618s] Installing keyboard_teleop script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+[0.618s] Installing play_audio script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+[0.618s] Installing play_opus script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+[0.618s] Installing robomaster_driver script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+[0.618s] 
+[0.618s] Installed /RM_ws/build/robomaster_ros
+[0.618s] running symlink_data
+[0.618s] creating /RM_ws/install/robomaster_ros/share/ament_index
+[0.618s] creating /RM_ws/install/robomaster_ros/share/ament_index/resource_index
+[0.618s] creating /RM_ws/install/robomaster_ros/share/ament_index/resource_index/packages
+[0.619s] symbolically linking /RM_ws/build/robomaster_ros/resource/robomaster_ros -> /RM_ws/install/robomaster_ros/share/ament_index/resource_index/packages
+[0.619s] symbolically linking /RM_ws/build/robomaster_ros/package.xml -> /RM_ws/install/robomaster_ros/share/robomaster_ros
+[0.619s] creating /RM_ws/install/robomaster_ros/share/robomaster_ros/launch
+[0.619s] symbolically linking /RM_ws/build/robomaster_ros/launch/s1.launch -> /RM_ws/install/robomaster_ros/share/robomaster_ros/launch
+[0.619s] symbolically linking /RM_ws/build/robomaster_ros/launch/teleop.launch -> /RM_ws/install/robomaster_ros/share/robomaster_ros/launch
+[0.619s] symbolically linking /RM_ws/build/robomaster_ros/launch/teleop_linux.launch -> /RM_ws/install/robomaster_ros/share/robomaster_ros/launch
+[0.619s] symbolically linking /RM_ws/build/robomaster_ros/launch/decoder.launch -> /RM_ws/install/robomaster_ros/share/robomaster_ros/launch
+[0.619s] symbolically linking /RM_ws/build/robomaster_ros/launch/ep.launch -> /RM_ws/install/robomaster_ros/share/robomaster_ros/launch
+[0.619s] symbolically linking /RM_ws/build/robomaster_ros/launch/keyboard_teleop.launch -> /RM_ws/install/robomaster_ros/share/robomaster_ros/launch
+[0.619s] symbolically linking /RM_ws/build/robomaster_ros/launch/camera.launch -> /RM_ws/install/robomaster_ros/share/robomaster_ros/launch
+[0.619s] symbolically linking /RM_ws/build/robomaster_ros/launch/main.launch -> /RM_ws/install/robomaster_ros/share/robomaster_ros/launch
+[0.619s] symbolically linking /RM_ws/build/robomaster_ros/launch/main.launch.py -> /RM_ws/install/robomaster_ros/share/robomaster_ros/launch
+[0.619s] creating /RM_ws/install/robomaster_ros/share/robomaster_ros/config
+[0.619s] symbolically linking /RM_ws/build/robomaster_ros/config/joy_config_ep.yaml -> /RM_ws/install/robomaster_ros/share/robomaster_ros/config
+[0.619s] symbolically linking /RM_ws/build/robomaster_ros/config/rm_camera_calibration_360.yaml -> /RM_ws/install/robomaster_ros/share/robomaster_ros/config
+[0.619s] symbolically linking /RM_ws/build/robomaster_ros/config/rm_ap.yaml -> /RM_ws/install/robomaster_ros/share/robomaster_ros/config
+[0.619s] symbolically linking /RM_ws/build/robomaster_ros/config/rm_camera_calibration_360_simulation.yaml -> /RM_ws/install/robomaster_ros/share/robomaster_ros/config
+[0.619s] symbolically linking /RM_ws/build/robomaster_ros/config/servos.yaml -> /RM_ws/install/robomaster_ros/share/robomaster_ros/config
+[0.619s] symbolically linking /RM_ws/build/robomaster_ros/config/rm_camera_calibration_540.yaml -> /RM_ws/install/robomaster_ros/share/robomaster_ros/config
+[0.619s] symbolically linking /RM_ws/build/robomaster_ros/config/rm_camera_calibration_720_simulation.yaml -> /RM_ws/install/robomaster_ros/share/robomaster_ros/config
+[0.619s] symbolically linking /RM_ws/build/robomaster_ros/config/rm_camera_calibration_540_simulation.yaml -> /RM_ws/install/robomaster_ros/share/robomaster_ros/config
+[0.619s] symbolically linking /RM_ws/build/robomaster_ros/config/rm_camera_calibration_720.yaml -> /RM_ws/install/robomaster_ros/share/robomaster_ros/config
+[0.619s] symbolically linking /RM_ws/build/robomaster_ros/config/joy_config_s1.yaml -> /RM_ws/install/robomaster_ros/share/robomaster_ros/config
+[0.637s] Invoked command in '/RM_ws/build/robomaster_ros' returned '0': PYTHONPATH=/RM_ws/build/robomaster_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/RM_ws/install/robomaster_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /RM_ws/build/robomaster_ros/build --no-deps symlink_data

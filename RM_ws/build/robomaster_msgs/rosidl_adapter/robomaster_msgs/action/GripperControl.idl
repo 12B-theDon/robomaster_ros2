@@ -1,0 +1,47 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from robomaster_msgs/action/GripperControl.action
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Duration.idl"
+
+module robomaster_msgs {
+  module action {
+    module GripperControl_Goal_Constants {
+      @verbatim (language="comment", text=
+        "the gripper state when manually stopped")
+      const uint8 PAUSE = 0;
+      @verbatim (language="comment", text=
+        "the open gripper state")
+      const uint8 OPEN = 1;
+      @verbatim (language="comment", text=
+        "the closed gripper state")
+      const uint8 CLOSE = 2;
+    };
+    @verbatim (language="comment", text=
+      "The gripper goal to open, close, or pause, by applying some power." "\n"
+      "" "\n"
+      "The action succeeds when the gripper reaches the the target state.")
+    struct GripperControl_Goal {
+      @verbatim (language="comment", text=
+        "the target gripper state:" "\n"
+        "one of ``PAUSE``, ``OPEN``, or ``CLOSE``")
+      uint8 target_state;
+
+      @verbatim (language="comment", text=
+        "the relative amount of power in [0, 1]")
+      @default (value=0.5)
+      float power;
+    };
+    struct GripperControl_Result {
+      @verbatim (language="comment", text=
+        "the duration of the action")
+      builtin_interfaces::msg::Duration duration;
+    };
+    struct GripperControl_Feedback {
+      @verbatim (language="comment", text=
+        "the current gripper state:" "\n"
+        "one of ``PAUSE``, ``OPEN``, or ``CLOSE``")
+      uint8 current_state;
+    };
+  };
+};

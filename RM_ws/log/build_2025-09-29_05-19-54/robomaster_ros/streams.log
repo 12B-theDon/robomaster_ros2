@@ -1,0 +1,29 @@
+[0.926s] Invoking command in '/RM_ws/src/robomaster_ros_pkg/robomaster_ros': PYTHONPATH=/RM_ws/build/robomaster_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/RM_ws/install/robomaster_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/robomaster_ros build --build-base /RM_ws/build/robomaster_ros/build install --record /RM_ws/build/robomaster_ros/install.log --single-version-externally-managed install_data
+[1.270s] running egg_info
+[1.271s] writing ../../../build/robomaster_ros/robomaster_ros.egg-info/PKG-INFO
+[1.271s] writing dependency_links to ../../../build/robomaster_ros/robomaster_ros.egg-info/dependency_links.txt
+[1.272s] writing entry points to ../../../build/robomaster_ros/robomaster_ros.egg-info/entry_points.txt
+[1.272s] writing requirements to ../../../build/robomaster_ros/robomaster_ros.egg-info/requires.txt
+[1.272s] writing top-level names to ../../../build/robomaster_ros/robomaster_ros.egg-info/top_level.txt
+[1.276s] reading manifest file '../../../build/robomaster_ros/robomaster_ros.egg-info/SOURCES.txt'
+[1.278s] writing manifest file '../../../build/robomaster_ros/robomaster_ros.egg-info/SOURCES.txt'
+[1.278s] running build
+[1.278s] running build_py
+[1.281s] running install
+[1.282s] running install_lib
+[1.285s] running install_data
+[1.286s] running install_egg_info
+[1.288s] removing '/RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros-0.0.0-py3.10.egg-info' (and everything under it)
+[1.289s] Copying ../../../build/robomaster_ros/robomaster_ros.egg-info to /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros-0.0.0-py3.10.egg-info
+[1.292s] running install_scripts
+[1.319s] Installing connect script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+[1.320s] Installing discover script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+[1.320s] Installing display_battery script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+[1.320s] Installing h264_decoder script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+[1.320s] Installing keyboard_teleop script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+[1.320s] Installing new_discover script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+[1.321s] Installing play_audio script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+[1.321s] Installing play_opus script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+[1.321s] Installing robomaster_driver script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+[1.322s] writing list of installed files to '/RM_ws/build/robomaster_ros/install.log'
+[1.370s] Invoked command in '/RM_ws/src/robomaster_ros_pkg/robomaster_ros' returned '0': PYTHONPATH=/RM_ws/build/robomaster_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/RM_ws/install/robomaster_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/robomaster_ros build --build-base /RM_ws/build/robomaster_ros/build install --record /RM_ws/build/robomaster_ros/install.log --single-version-externally-managed install_data

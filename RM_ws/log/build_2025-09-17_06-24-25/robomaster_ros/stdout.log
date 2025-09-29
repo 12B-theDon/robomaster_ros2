@@ -1,0 +1,50 @@
+running develop
+running egg_info
+creating robomaster_ros.egg-info
+writing robomaster_ros.egg-info/PKG-INFO
+writing dependency_links to robomaster_ros.egg-info/dependency_links.txt
+writing entry points to robomaster_ros.egg-info/entry_points.txt
+writing requirements to robomaster_ros.egg-info/requires.txt
+writing top-level names to robomaster_ros.egg-info/top_level.txt
+writing manifest file 'robomaster_ros.egg-info/SOURCES.txt'
+reading manifest file 'robomaster_ros.egg-info/SOURCES.txt'
+writing manifest file 'robomaster_ros.egg-info/SOURCES.txt'
+running build_ext
+Creating /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster-ros.egg-link (link to .)
+Installing connect script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+Installing discover script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+Installing display_battery script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+Installing h264_decoder script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+Installing keyboard_teleop script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+Installing play_audio script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+Installing play_opus script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+Installing robomaster_driver script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+
+Installed /RM_ws/build/robomaster_ros
+running symlink_data
+creating /RM_ws/install/robomaster_ros/share/ament_index
+creating /RM_ws/install/robomaster_ros/share/ament_index/resource_index
+creating /RM_ws/install/robomaster_ros/share/ament_index/resource_index/packages
+symbolically linking /RM_ws/build/robomaster_ros/resource/robomaster_ros -> /RM_ws/install/robomaster_ros/share/ament_index/resource_index/packages
+symbolically linking /RM_ws/build/robomaster_ros/package.xml -> /RM_ws/install/robomaster_ros/share/robomaster_ros
+creating /RM_ws/install/robomaster_ros/share/robomaster_ros/launch
+symbolically linking /RM_ws/build/robomaster_ros/launch/s1.launch -> /RM_ws/install/robomaster_ros/share/robomaster_ros/launch
+symbolically linking /RM_ws/build/robomaster_ros/launch/teleop.launch -> /RM_ws/install/robomaster_ros/share/robomaster_ros/launch
+symbolically linking /RM_ws/build/robomaster_ros/launch/teleop_linux.launch -> /RM_ws/install/robomaster_ros/share/robomaster_ros/launch
+symbolically linking /RM_ws/build/robomaster_ros/launch/decoder.launch -> /RM_ws/install/robomaster_ros/share/robomaster_ros/launch
+symbolically linking /RM_ws/build/robomaster_ros/launch/ep.launch -> /RM_ws/install/robomaster_ros/share/robomaster_ros/launch
+symbolically linking /RM_ws/build/robomaster_ros/launch/keyboard_teleop.launch -> /RM_ws/install/robomaster_ros/share/robomaster_ros/launch
+symbolically linking /RM_ws/build/robomaster_ros/launch/camera.launch -> /RM_ws/install/robomaster_ros/share/robomaster_ros/launch
+symbolically linking /RM_ws/build/robomaster_ros/launch/main.launch -> /RM_ws/install/robomaster_ros/share/robomaster_ros/launch
+symbolically linking /RM_ws/build/robomaster_ros/launch/main.launch.py -> /RM_ws/install/robomaster_ros/share/robomaster_ros/launch
+creating /RM_ws/install/robomaster_ros/share/robomaster_ros/config
+symbolically linking /RM_ws/build/robomaster_ros/config/joy_config_ep.yaml -> /RM_ws/install/robomaster_ros/share/robomaster_ros/config
+symbolically linking /RM_ws/build/robomaster_ros/config/rm_camera_calibration_360.yaml -> /RM_ws/install/robomaster_ros/share/robomaster_ros/config
+symbolically linking /RM_ws/build/robomaster_ros/config/rm_ap.yaml -> /RM_ws/install/robomaster_ros/share/robomaster_ros/config
+symbolically linking /RM_ws/build/robomaster_ros/config/rm_camera_calibration_360_simulation.yaml -> /RM_ws/install/robomaster_ros/share/robomaster_ros/config
+symbolically linking /RM_ws/build/robomaster_ros/config/servos.yaml -> /RM_ws/install/robomaster_ros/share/robomaster_ros/config
+symbolically linking /RM_ws/build/robomaster_ros/config/rm_camera_calibration_540.yaml -> /RM_ws/install/robomaster_ros/share/robomaster_ros/config
+symbolically linking /RM_ws/build/robomaster_ros/config/rm_camera_calibration_720_simulation.yaml -> /RM_ws/install/robomaster_ros/share/robomaster_ros/config
+symbolically linking /RM_ws/build/robomaster_ros/config/rm_camera_calibration_540_simulation.yaml -> /RM_ws/install/robomaster_ros/share/robomaster_ros/config
+symbolically linking /RM_ws/build/robomaster_ros/config/rm_camera_calibration_720.yaml -> /RM_ws/install/robomaster_ros/share/robomaster_ros/config
+symbolically linking /RM_ws/build/robomaster_ros/config/joy_config_s1.yaml -> /RM_ws/install/robomaster_ros/share/robomaster_ros/config

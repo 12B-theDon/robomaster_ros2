@@ -1,0 +1,164 @@
+[0.060s] Invoking command in '/RM_ws/build/robomaster_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/RM_ws/install/robomaster_ros:/opt/ros/humble /usr/bin/cmake /RM_ws/src/robomaster_ros_pkg/robomaster_description -DCMAKE_INSTALL_PREFIX=/RM_ws/install/robomaster_description
+[0.084s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.297s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.325s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.540s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.565s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.568s] -- Added test 'lint_cmake' to check CMake code style
+[0.571s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.594s] -- Added test 'xmllint' to check XML markup files
+[0.618s] -- Configuring done
+[0.627s] -- Generating done
+[0.629s] -- Build files have been written to: /RM_ws/build/robomaster_description
+[0.648s] Invoked command in '/RM_ws/build/robomaster_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/RM_ws/install/robomaster_ros:/opt/ros/humble /usr/bin/cmake /RM_ws/src/robomaster_ros_pkg/robomaster_description -DCMAKE_INSTALL_PREFIX=/RM_ws/install/robomaster_description
+[0.649s] Invoking command in '/RM_ws/build/robomaster_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/RM_ws/install/robomaster_ros:/opt/ros/humble /usr/bin/cmake --build /RM_ws/build/robomaster_description -- -j8 -l8
+[0.714s] Invoked command in '/RM_ws/build/robomaster_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/RM_ws/install/robomaster_ros:/opt/ros/humble /usr/bin/cmake --build /RM_ws/build/robomaster_description -- -j8 -l8
+[0.743s] Invoking command in '/RM_ws/build/robomaster_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/RM_ws/install/robomaster_ros:/opt/ros/humble /usr/bin/cmake --install /RM_ws/build/robomaster_description
+[0.765s] -- Install configuration: ""
+[0.766s] -- Execute custom install script
+[0.769s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/urdf/arm.urdf.xacro
+[0.769s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/urdf/base.urdf.xacro
+[0.769s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/urdf/camera.urdf.xacro
+[0.769s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/urdf/extension.urdf.xacro
+[0.770s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/urdf/gimbal.urdf.xacro
+[0.770s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/urdf/gripper.urdf.xacro
+[0.771s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/urdf/intelligent_controller.urdf.xacro
+[0.772s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/urdf/led.urdf.xacro
+[0.772s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/urdf/robomaster_ep.urdf.xacro
+[0.773s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/urdf/robomaster_s1.urdf.xacro
+[0.773s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/urdf/tof.urdf.xacro
+[0.773s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/urdf/wheel.urdf.xacro
+[0.773s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/launch/main.launch
+[0.775s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/launch/model.launch.py
+[0.775s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/EP_all_01_b.png
+[0.775s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/TOP_Base_Color.png
+[0.775s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/TOP_Base_Color.png.001.png
+[0.775s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/TOP_Normal_OpenGL.png
+[0.775s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/TOP_Normal_OpenGL.png.001.png
+[0.775s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/arm_1.dae
+[0.776s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/arm_1_collision.dae
+[0.780s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/arm_1_cylinder.dae
+[0.780s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/arm_2.dae
+[0.780s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/arm_2_bar_1.dae
+[0.781s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/arm_2_bar_2.dae
+[0.781s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/arm_2_collision.dae
+[0.781s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/arm_base.dae
+[0.782s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/arm_base_collision.dae
+[0.782s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/armor.dae
+[0.782s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/base_collision.dae
+[0.782s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/battery.dae
+[0.783s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/battery_pin_left.dae
+[0.783s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/battery_pin_right.dae
+[0.783s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/blaster_bug.dae
+[0.783s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/blaster_gun.dae
+[0.783s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/blaster_gun_collision.dae
+[0.783s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/blaster_magazin.dae
+[0.783s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/blaster_magazin_collision.dae
+[0.783s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/blaster_top.dae
+[0.784s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/blaster_top_collision.dae
+[0.784s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/camera.dae
+[0.784s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/chassis.dae
+[0.784s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/controller.dae
+[0.784s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/controller_cover.dae
+[0.784s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/endpoint_bracket.dae
+[0.784s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/endpoint_bracket_collision.dae
+[0.784s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/extension_base.dae
+[0.787s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/extension_support.dae
+[0.787s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/front_hit_sensor.dae
+[0.788s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/front_led.dae
+[0.788s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/front_left_wheel.dae
+[0.792s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/front_right_wheel.dae
+[0.792s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gimbal.dae
+[0.793s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gimbal_base.dae
+[0.793s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gimbal_base_collision.dae
+[0.793s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gimbal_collision.dae
+[0.793s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gimbal_left_armor.dae
+[0.793s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gimbal_left_led.dae
+[0.793s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gimbal_left_led_0.dae
+[0.793s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gimbal_left_led_1.dae
+[0.793s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gimbal_left_led_2.dae
+[0.793s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gimbal_left_led_3.dae
+[0.793s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gimbal_left_led_4.dae
+[0.794s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gimbal_left_led_5.dae
+[0.794s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gimbal_left_led_6.dae
+[0.794s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gimbal_left_led_7.dae
+[0.794s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gimbal_right_armor.dae
+[0.794s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gimbal_right_led.dae
+[0.795s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gimbal_right_led7.dae
+[0.795s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gimbal_right_led_0.dae
+[0.795s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gimbal_right_led_1.dae
+[0.795s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gimbal_right_led_2.dae
+[0.796s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gimbal_right_led_3.dae
+[0.796s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gimbal_right_led_4.dae
+[0.796s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gimbal_right_led_5.dae
+[0.796s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gimbal_right_led_6.dae
+[0.797s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gimbal_right_led_7.dae
+[0.797s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gimbal_side.dae
+[0.800s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gripper_base.dae
+[0.800s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gripper_base_collision.dae
+[0.800s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gripper_left_1.dae
+[0.800s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gripper_left_2.dae
+[0.801s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gripper_left_2_collision.dae
+[0.801s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gripper_left_4.dae
+[0.801s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gripper_left_4_collision.dae
+[0.801s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gripper_left_5.dae
+[0.801s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gripper_left_5_collision.dae
+[0.801s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gripper_left_6.dae
+[0.801s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gripper_left_6_collision.dae
+[0.809s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gripper_left_7.dae
+[0.809s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/gripper_left_collision.dae
+[0.809s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/hit_sensor.dae
+[0.810s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/intelligent_controller.dae
+[0.810s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/led.dae
+[0.810s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/left_hit_sensor.dae
+[0.810s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/left_led.dae
+[0.810s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/left_servo.dae
+[0.810s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/rear_hit_sensor.dae
+[0.810s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/rear_led.dae
+[0.810s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/rear_left_wheel.dae
+[0.810s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/rear_right_wheel.dae
+[0.810s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/right_gripper_1.dae
+[0.818s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/right_gripper_2.dae
+[0.818s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/right_gripper_2_collision.dae
+[0.818s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/right_gripper_4.dae
+[0.819s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/right_gripper_4_collision.dae
+[0.819s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/right_gripper_5.dae
+[0.819s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/right_gripper_5_collision.dae
+[0.819s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/right_gripper_6.dae
+[0.819s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/right_gripper_6_collision.dae
+[0.819s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/right_gripper_7.dae
+[0.819s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/right_gripper_7_collision.dae
+[0.820s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/right_hit_sensor.dae
+[0.820s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/right_led.dae
+[0.820s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/right_servo.dae
+[0.821s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/rod.dae
+[0.821s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/rod_1.dae
+[0.821s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/rod_1_collision.dae
+[0.821s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/rod_2.dae
+[0.821s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/rod_2_collision.dae
+[0.821s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/rod_3.dae
+[0.821s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/rod_3_collision.dae
+[0.821s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/rod_collision.dae
+[0.821s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/speaker.dae
+[0.821s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/speaker_collision.dae
+[0.821s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/triangle.dae
+[0.821s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/triangle_collision.dae
+[0.822s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/wheel.dae
+[0.822s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/wifi_antenna_left.dae
+[0.822s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/meshes/wifi_antenna_right.dae
+[0.822s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/ament_index/resource_index/package_run_dependencies/robomaster_description
+[0.822s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/ament_index/resource_index/parent_prefix_path/robomaster_description
+[0.822s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/environment/ament_prefix_path.sh
+[0.822s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/environment/ament_prefix_path.dsv
+[0.822s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/environment/path.sh
+[0.822s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/environment/path.dsv
+[0.822s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/local_setup.bash
+[0.822s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/local_setup.sh
+[0.822s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/local_setup.zsh
+[0.822s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/local_setup.dsv
+[0.823s] -- Symlinking: /RM_ws/install/robomaster_description/share/robomaster_description/package.dsv
+[0.844s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/ament_index/resource_index/packages/robomaster_description
+[0.845s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/cmake/robomaster_descriptionConfig.cmake
+[0.845s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/cmake/robomaster_descriptionConfig-version.cmake
+[0.845s] -- Up-to-date symlink: /RM_ws/install/robomaster_description/share/robomaster_description/package.xml
+[0.869s] Invoked command in '/RM_ws/build/robomaster_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/RM_ws/install/robomaster_ros:/opt/ros/humble /usr/bin/cmake --install /RM_ws/build/robomaster_description

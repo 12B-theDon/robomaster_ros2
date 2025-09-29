@@ -1,0 +1,22 @@
+running develop
+running egg_info
+writing robomaster_ros.egg-info/PKG-INFO
+writing dependency_links to robomaster_ros.egg-info/dependency_links.txt
+writing entry points to robomaster_ros.egg-info/entry_points.txt
+writing requirements to robomaster_ros.egg-info/requires.txt
+writing top-level names to robomaster_ros.egg-info/top_level.txt
+reading manifest file 'robomaster_ros.egg-info/SOURCES.txt'
+writing manifest file 'robomaster_ros.egg-info/SOURCES.txt'
+running build_ext
+Creating /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster-ros.egg-link (link to .)
+Installing connect script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+Installing discover script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+Installing display_battery script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+Installing h264_decoder script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+Installing keyboard_teleop script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+Installing play_audio script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+Installing play_opus script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+Installing robomaster_driver script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+
+Installed /RM_ws/build/robomaster_ros
+running symlink_data

@@ -1,0 +1,1 @@
+/RM_ws/build/robomaster_msgs/rosidl_generator_c/robomaster_msgs/msg/detail/blaster_led__type_support.h

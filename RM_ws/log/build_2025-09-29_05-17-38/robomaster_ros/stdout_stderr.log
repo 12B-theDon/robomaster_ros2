@@ -1,0 +1,153 @@
+running develop
+Removing /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster-ros.egg-link (link to .)
+running egg_info
+writing ../../../build/robomaster_ros/robomaster_ros.egg-info/PKG-INFO
+writing dependency_links to ../../../build/robomaster_ros/robomaster_ros.egg-info/dependency_links.txt
+writing entry points to ../../../build/robomaster_ros/robomaster_ros.egg-info/entry_points.txt
+writing requirements to ../../../build/robomaster_ros/robomaster_ros.egg-info/requires.txt
+writing top-level names to ../../../build/robomaster_ros/robomaster_ros.egg-info/top_level.txt
+reading manifest file '../../../build/robomaster_ros/robomaster_ros.egg-info/SOURCES.txt'
+writing manifest file '../../../build/robomaster_ros/robomaster_ros.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /RM_ws/build/robomaster_ros/build
+creating /RM_ws/build/robomaster_ros/build/lib
+creating /RM_ws/build/robomaster_ros/build/lib/robomaster_ros
+copying robomaster_ros/play_audio.py -> /RM_ws/build/robomaster_ros/build/lib/robomaster_ros
+copying robomaster_ros/client.py -> /RM_ws/build/robomaster_ros/build/lib/robomaster_ros
+copying robomaster_ros/display_battery.py -> /RM_ws/build/robomaster_ros/build/lib/robomaster_ros
+copying robomaster_ros/ftp.py -> /RM_ws/build/robomaster_ros/build/lib/robomaster_ros
+copying robomaster_ros/discover.py -> /RM_ws/build/robomaster_ros/build/lib/robomaster_ros
+copying robomaster_ros/play_audio_opus.py -> /RM_ws/build/robomaster_ros/build/lib/robomaster_ros
+copying robomaster_ros/decompress_h264.py -> /RM_ws/build/robomaster_ros/build/lib/robomaster_ros
+copying robomaster_ros/keyboard_teleop.py -> /RM_ws/build/robomaster_ros/build/lib/robomaster_ros
+copying robomaster_ros/connect.py -> /RM_ws/build/robomaster_ros/build/lib/robomaster_ros
+copying robomaster_ros/utils.py -> /RM_ws/build/robomaster_ros/build/lib/robomaster_ros
+copying robomaster_ros/robomaster_driver.py -> /RM_ws/build/robomaster_ros/build/lib/robomaster_ros
+copying robomaster_ros/__init__.py -> /RM_ws/build/robomaster_ros/build/lib/robomaster_ros
+copying robomaster_ros/action.py -> /RM_ws/build/robomaster_ros/build/lib/robomaster_ros
+copying robomaster_ros/new_discover.py -> /RM_ws/build/robomaster_ros/build/lib/robomaster_ros
+creating /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules
+copying robomaster_ros/modules/camera.py -> /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules
+copying robomaster_ros/modules/pwm.py -> /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules
+copying robomaster_ros/modules/led.py -> /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules
+copying robomaster_ros/modules/speaker.py -> /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules
+copying robomaster_ros/modules/sbus.py -> /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules
+copying robomaster_ros/modules/arm.py -> /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules
+copying robomaster_ros/modules/vision.py -> /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules
+copying robomaster_ros/modules/uart.py -> /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules
+copying robomaster_ros/modules/gimbal.py -> /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules
+copying robomaster_ros/modules/tof.py -> /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules
+copying robomaster_ros/modules/gripper.py -> /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules
+copying robomaster_ros/modules/armor.py -> /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules
+copying robomaster_ros/modules/sensor_adapter.py -> /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules
+copying robomaster_ros/modules/battery.py -> /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules
+copying robomaster_ros/modules/servo.py -> /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules
+copying robomaster_ros/modules/__init__.py -> /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules
+copying robomaster_ros/modules/chassis.py -> /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules
+copying robomaster_ros/modules/h264_parser.py -> /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules
+copying robomaster_ros/modules/blaster.py -> /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules
+running install
+running install_lib
+creating /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros
+copying /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/play_audio.py -> /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros
+copying /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/client.py -> /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros
+copying /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/display_battery.py -> /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros
+copying /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/ftp.py -> /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros
+copying /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/new_discover.py -> /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros
+creating /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules
+copying /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules/camera.py -> /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules
+copying /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules/pwm.py -> /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules
+copying /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules/led.py -> /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules
+copying /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules/speaker.py -> /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules
+copying /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules/sbus.py -> /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules
+copying /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules/arm.py -> /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules
+copying /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules/vision.py -> /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules
+copying /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules/uart.py -> /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules
+copying /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules/gimbal.py -> /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules
+copying /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules/tof.py -> /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules
+copying /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules/gripper.py -> /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules
+copying /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules/armor.py -> /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules
+copying /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules/sensor_adapter.py -> /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules
+copying /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules/battery.py -> /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules
+copying /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules/servo.py -> /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules
+copying /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules/__init__.py -> /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules
+copying /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules/chassis.py -> /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules
+copying /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules/h264_parser.py -> /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules
+copying /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/modules/blaster.py -> /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules
+copying /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/discover.py -> /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros
+copying /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/play_audio_opus.py -> /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros
+copying /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/decompress_h264.py -> /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros
+copying /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/keyboard_teleop.py -> /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros
+copying /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/connect.py -> /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros
+copying /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/utils.py -> /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros
+copying /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/robomaster_driver.py -> /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros
+copying /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/__init__.py -> /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros
+copying /RM_ws/build/robomaster_ros/build/lib/robomaster_ros/action.py -> /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros
+byte-compiling /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/play_audio.py to play_audio.cpython-310.pyc
+byte-compiling /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/client.py to client.cpython-310.pyc
+byte-compiling /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/display_battery.py to display_battery.cpython-310.pyc
+byte-compiling /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/ftp.py to ftp.cpython-310.pyc
+byte-compiling /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/new_discover.py to new_discover.cpython-310.pyc
+byte-compiling /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules/camera.py to camera.cpython-310.pyc
+byte-compiling /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules/pwm.py to pwm.cpython-310.pyc
+byte-compiling /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules/led.py to led.cpython-310.pyc
+byte-compiling /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules/speaker.py to speaker.cpython-310.pyc
+byte-compiling /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules/sbus.py to sbus.cpython-310.pyc
+byte-compiling /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules/arm.py to arm.cpython-310.pyc
+byte-compiling /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules/vision.py to vision.cpython-310.pyc
+byte-compiling /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules/uart.py to uart.cpython-310.pyc
+byte-compiling /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules/gimbal.py to gimbal.cpython-310.pyc
+byte-compiling /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules/tof.py to tof.cpython-310.pyc
+byte-compiling /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules/gripper.py to gripper.cpython-310.pyc
+byte-compiling /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules/armor.py to armor.cpython-310.pyc
+byte-compiling /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules/sensor_adapter.py to sensor_adapter.cpython-310.pyc
+byte-compiling /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules/battery.py to battery.cpython-310.pyc
+byte-compiling /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules/servo.py to servo.cpython-310.pyc
+byte-compiling /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules/__init__.py to __init__.cpython-310.pyc
+byte-compiling /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules/chassis.py to chassis.cpython-310.pyc
+byte-compiling /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules/h264_parser.py to h264_parser.cpython-310.pyc
+byte-compiling /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/modules/blaster.py to blaster.cpython-310.pyc
+byte-compiling /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/discover.py to discover.cpython-310.pyc
+byte-compiling /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/play_audio_opus.py to play_audio_opus.cpython-310.pyc
+byte-compiling /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/decompress_h264.py to decompress_h264.cpython-310.pyc
+byte-compiling /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/keyboard_teleop.py to keyboard_teleop.cpython-310.pyc
+byte-compiling /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/connect.py to connect.cpython-310.pyc
+byte-compiling /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/utils.py to utils.cpython-310.pyc
+byte-compiling /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/robomaster_driver.py to robomaster_driver.cpython-310.pyc
+byte-compiling /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/__init__.py to __init__.cpython-310.pyc
+byte-compiling /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros/action.py to action.cpython-310.pyc
+running install_data
+copying resource/robomaster_ros -> /RM_ws/install/robomaster_ros/share/ament_index/resource_index/packages
+copying package.xml -> /RM_ws/install/robomaster_ros/share/robomaster_ros
+copying launch/s1.launch -> /RM_ws/install/robomaster_ros/share/robomaster_ros/launch
+copying launch/teleop.launch -> /RM_ws/install/robomaster_ros/share/robomaster_ros/launch
+copying launch/teleop_linux.launch -> /RM_ws/install/robomaster_ros/share/robomaster_ros/launch
+copying launch/decoder.launch -> /RM_ws/install/robomaster_ros/share/robomaster_ros/launch
+copying launch/ep.launch -> /RM_ws/install/robomaster_ros/share/robomaster_ros/launch
+copying launch/keyboard_teleop.launch -> /RM_ws/install/robomaster_ros/share/robomaster_ros/launch
+copying launch/camera.launch -> /RM_ws/install/robomaster_ros/share/robomaster_ros/launch
+copying launch/main.launch -> /RM_ws/install/robomaster_ros/share/robomaster_ros/launch
+copying launch/main.launch.py -> /RM_ws/install/robomaster_ros/share/robomaster_ros/launch
+copying config/joy_config_ep.yaml -> /RM_ws/install/robomaster_ros/share/robomaster_ros/config
+copying config/rm_camera_calibration_360.yaml -> /RM_ws/install/robomaster_ros/share/robomaster_ros/config
+copying config/rm_ap.yaml -> /RM_ws/install/robomaster_ros/share/robomaster_ros/config
+copying config/rm_camera_calibration_360_simulation.yaml -> /RM_ws/install/robomaster_ros/share/robomaster_ros/config
+copying config/servos.yaml -> /RM_ws/install/robomaster_ros/share/robomaster_ros/config
+copying config/rm_camera_calibration_540.yaml -> /RM_ws/install/robomaster_ros/share/robomaster_ros/config
+copying config/rm_camera_calibration_720_simulation.yaml -> /RM_ws/install/robomaster_ros/share/robomaster_ros/config
+copying config/rm_camera_calibration_540_simulation.yaml -> /RM_ws/install/robomaster_ros/share/robomaster_ros/config
+copying config/rm_camera_calibration_720.yaml -> /RM_ws/install/robomaster_ros/share/robomaster_ros/config
+copying config/joy_config_s1.yaml -> /RM_ws/install/robomaster_ros/share/robomaster_ros/config
+running install_egg_info
+Copying ../../../build/robomaster_ros/robomaster_ros.egg-info to /RM_ws/install/robomaster_ros/lib/python3.10/site-packages/robomaster_ros-0.0.0-py3.10.egg-info
+running install_scripts
+Installing connect script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+Installing discover script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+Installing display_battery script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+Installing h264_decoder script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+Installing keyboard_teleop script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+Installing play_audio script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+Installing play_opus script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+Installing robomaster_driver script to /RM_ws/install/robomaster_ros/lib/robomaster_ros
+writing list of installed files to '/RM_ws/build/robomaster_ros/install.log'

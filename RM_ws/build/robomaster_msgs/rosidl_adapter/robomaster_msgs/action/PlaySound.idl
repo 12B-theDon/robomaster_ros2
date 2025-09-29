@@ -1,0 +1,41 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from robomaster_msgs/action/PlaySound.action
+// generated code does not contain a copyright notice
+
+
+module robomaster_msgs {
+  module action {
+    @verbatim (language="comment", text=
+      "An action to play a predefined sound or an audio file from the speaker." "\n"
+      "" "\n"
+      "The action succeeds when the speaker finishes to play.")
+    struct PlaySound_Goal {
+      @verbatim (language="comment", text=
+        "ID of the sound to play")
+      @default (value=1)
+      int32 sound_id;
+
+      @verbatim (language="comment", text=
+        "how many times to play the same sound")
+      @default (value=1)
+      uint8 times;
+
+      @verbatim (language="comment", text=
+        "if not empty, the local file to be played.")
+      @default (value="")
+      string file;
+    };
+    struct PlaySound_Result {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct PlaySound_Feedback {
+      @verbatim (language="comment", text=
+        "the current count of sound repetitions")
+      uint8 time;
+
+      @verbatim (language="comment", text=
+        "the relative progress towards goal from 0 to 1")
+      float progress;
+    };
+  };
+};

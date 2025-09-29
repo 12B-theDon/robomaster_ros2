@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robomaster_msgs/msg/SensorAdapter.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module robomaster_msgs {
+  module msg {
+    typedef uint8 uint8__12[12];
+    typedef int16 int16__12[12];
+    @verbatim (language="comment", text=
+      "Summarizes the state of up to 6 sensor adapters (each with 2 interfaces)")
+    struct SensorAdapter {
+      @verbatim (language="comment", text=
+        "header with the time stamp of the update")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "input pin state (0 or 1)")
+      uint8__12 io;
+
+      @verbatim (language="comment", text=
+        "adc state")
+      int16__12 adc;
+
+      @verbatim (language="comment", text=
+        "interface intentifier")
+      @default (value="(1, 2, 1, 2, 1, 2, 1, 2, 1, 2, 1, 2)")
+      uint8__12 port;
+
+      @verbatim (language="comment", text=
+        "sensor adapter identifier")
+      @default (value="(1, 1, 2, 2, 3, 3, 4, 4, 5, 5, 6, 6)")
+      uint8__12 id;
+    };
+  };
+};
